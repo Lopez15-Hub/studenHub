@@ -41,13 +41,6 @@
     background-color:rgb(223, 219, 219);
 
 }
-
-.botonlog{
-    margin-left: 150px;
-
-  border: none;
-}
-
 footer{
     background-position: bottom;
    /*background: #16a085;*/
@@ -278,3 +271,10 @@ td{
         clear: both;
         display: table;
       }
+
+ .video{
+        height: 600px;
+        width: 800px;
+        margin: 150px;
+        background-color: silver;
+    }
