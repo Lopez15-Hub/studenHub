@@ -1,6 +1,5 @@
 .titulo{
     background-color: rgb(131, 206, 250);
-    
     color: white;
     text-align: center;
 }
@@ -34,68 +33,34 @@
     transition-delay: 5s;
 }
 .form{
-    margin-left: 100px;
+  text-align: center; 
    
 }
 .division{
-<<<<<<< Updated upstream:html/CSS/STYLES.css
-    margin-left: 20px;
-    margin-right: 1300px;
-   
-    
-    padding: inherit;
-    background-color: rgb(131, 206, 250);
-    
-=======
     /*background-color: rgb(131, 206, 250);*/
     background-color:rgb(223, 219, 219);
->>>>>>> Stashed changes:E.P.E.T.20-Comunicaciones/html/CSS/STYLES.css
 
 }
-.video{
-    height: 600px;
-    width: 800px;
-    margin: 150px;
-    background-color: silver;
-}
-.h1{
-    
-    border-radius: 15px;
-    background-color: rgb(0, 140, 255);
-    margin-top: 10px;
-    color: white;
-    text-align: center;
-}
 
-aside{
-    color: white;
-    margin-top: 00px;
-    margin-bottom: 800px;
-    margin-left: 1400px ;
-    background-color: rgb(131, 206, 250);
-
-}
 .botonlog{
-<<<<<<< Updated upstream:html/CSS/STYLES.css
     margin-left: 150px;
-=======
+
   border: none;
->>>>>>> Stashed changes:E.P.E.T.20-Comunicaciones/html/CSS/STYLES.css
 }
 
 footer{
     background-position: bottom;
    /*background: #16a085;*/
    background-color: brown;
-    color: #fff;
+    color: #ffffff;
     height: 200px;
 }
 .parrafo{
     color: white;
    margin-left: 90px;
 }
-<<<<<<< Updated upstream:html/CSS/STYLES.css
-=======
+
+
 .slide-wrap{
     height: 500px;
     width: 500px;
@@ -112,7 +77,7 @@ hr{
 .entrega{
     border-radius: 10%;
     width: 800px;
-    
+
     padding: auto;
     text-align: center;
     background-color: rgba(194, 189, 189, 0.384) ;
@@ -166,32 +131,32 @@ background-color: silver;
     background-color: silver;
     height: 900px;
     text-align: center;
-    
+
 }
 td{
     border: solid;
 }
 .dia{
     background-color:  silver;
-    
+
     margin: 0%;
     padding: 2%;
 }
 .dia:hover{
     background-color:   rgb(255, 4, 38);
-    
+
     margin: 0%;
     padding: 2%;
 }
 .dia_pasado{
     background-color: silver;;
-    
+
     margin: 0%;
     padding: 2%;
 }
 .dia_pasado:hover{
     background-color: rgba(255, 64, 80, 0.582);
-    
+
     margin: 0%;
     padding: 2%;
 }
@@ -216,14 +181,14 @@ td{
     color: black;
     transition-property: all;
     transition: ease;
-    
+
     box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
 }
 .sombra{
     box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
 }
 .profIcon{
-    
+
     border-radius:10%;
     height: 35px;
 }
@@ -249,16 +214,16 @@ td{
     color: black;
     transition-property: all;
     transition: ease;
-    
+
     box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
 }
 .config{
-    
+
 
     text-decoration: none;
     margin: auto;
     padding: inherit;
-   
+
     display: inline-block;
 }
 .config:hover{
@@ -268,7 +233,7 @@ td{
     text-decoration: none;
     transition-property: all;
     transition: ease;
-    
+
 }
 .contorno{
     border-radius: 1%;
@@ -288,7 +253,7 @@ td{
     background-color: white;
 }
 .profileEdit{
-  
+
     border-radius: 20%;
     border: solid;
     border-width: 1px;
@@ -313,4 +278,3 @@ td{
         clear: both;
         display: table;
       }
->>>>>>> Stashed changes:E.P.E.T.20-Comunicaciones/html/CSS/STYLES.css
