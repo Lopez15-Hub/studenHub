@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com ">
+    <script src="https://apis.google.com/js/platform.js" async Defer> </script>
+            <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="CSS/STYLES.css">
+                        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+                            <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+                                <!--Slider-->
+    <link rel="shortcut icon" href="imágenes\icon.png">
+                                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+                                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>Registrate en TANGO</title>
+</head>
+
+<body>
+    <div clase = "g-signin2" datos-onSuccess = "onSignIn " data-theme = " dark " 
+       > </div>
+    <div class="container-fluid clearfix visible-xs-block sombra">
+        <div class="container-fluid">
+            <header class="row header" style="height: 100px;">
+                <nav class="noBug" style=" margin:auto;">
+        </div>
+
+        <div class="container-fluid division col-xs-12 col-xl-12">
+            <!--ESTA PARTE ES EL LOGIN-->
+            <center>
+                <h1 style="color: white;"> Registrate </h1>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <form action="success.php" method="GET" class="form">
+
+                    <br>
+                    <input class="input" type="text" placeholder="Nombre">
+                    <input class="input" type="text" placeholder="Apellido">
+                    <br>
+                    <br>
+                    <input class="input" type="text" placeholder="Nombre de usuario">
+                    <br><br>
+                    <input class="input" type="text email" placeholder=" Email">
+                    <br> <br>
+                    <input class=" input" type="password" placeholder="Contraseña" maxlength="16">
+                    <input class=" input" type="password" placeholder="Repetir Contraseña" maxlength="16">
+                    <br>
+                    <br>
+                    <p>Soy...</p>
+                    <p><input type="checkbox">Estudiante &nbsp; <input type="checkbox">Profesor</p>
+                    <p>Acepto los terminos y condiciones: <input type="checkbox"> </p>
+
+                    <button type="submit" class="btn btn-danger botonlog">Registrarse</button>
+
+
+
+                </form>
+            </center>
+
+        </div>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        
+</body>
+
+</html>

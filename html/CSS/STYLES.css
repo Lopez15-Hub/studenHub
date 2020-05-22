@@ -1,0 +1,316 @@
+.titulo{
+    background-color: rgb(131, 206, 250);
+    
+    color: white;
+    text-align: center;
+}
+.cuerpo {
+    background-color: white;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+}
+.novedades{
+    background-color: silver;
+    display: block;
+}
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+.input{
+  
+    border-radius: 15cm;
+    width: 10cm;
+    padding: 10px;
+    border:none;
+    background-color: white;
+}
+.boton{
+    justify-content: right;
+    margin-left: 1600px;
+    transition-property:all ;
+    transition-duration:5s ;
+    transition-delay: 5s;
+}
+.form{
+    margin-left: 100px;
+   
+}
+.division{
+<<<<<<< Updated upstream:html/CSS/STYLES.css
+    margin-left: 20px;
+    margin-right: 1300px;
+   
+    
+    padding: inherit;
+    background-color: rgb(131, 206, 250);
+    
+=======
+    /*background-color: rgb(131, 206, 250);*/
+    background-color:rgb(223, 219, 219);
+>>>>>>> Stashed changes:E.P.E.T.20-Comunicaciones/html/CSS/STYLES.css
+
+}
+.video{
+    height: 600px;
+    width: 800px;
+    margin: 150px;
+    background-color: silver;
+}
+.h1{
+    
+    border-radius: 15px;
+    background-color: rgb(0, 140, 255);
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+aside{
+    color: white;
+    margin-top: 00px;
+    margin-bottom: 800px;
+    margin-left: 1400px ;
+    background-color: rgb(131, 206, 250);
+
+}
+.botonlog{
+<<<<<<< Updated upstream:html/CSS/STYLES.css
+    margin-left: 150px;
+=======
+  border: none;
+>>>>>>> Stashed changes:E.P.E.T.20-Comunicaciones/html/CSS/STYLES.css
+}
+
+footer{
+    background-position: bottom;
+   /*background: #16a085;*/
+   background-color: brown;
+    color: #fff;
+    height: 200px;
+}
+.parrafo{
+    color: white;
+   margin-left: 90px;
+}
+<<<<<<< Updated upstream:html/CSS/STYLES.css
+=======
+.slide-wrap{
+    height: 500px;
+    width: 500px;
+}
+.lis_act{
+    height: 500px;
+    padding: inherit;
+    text-align: center;
+    background-color: rgba(194, 189, 189, 0.384) ;
+}
+hr{
+    margin-left: 21%;
+}
+.entrega{
+    border-radius: 10%;
+    width: 800px;
+    
+    padding: auto;
+    text-align: center;
+    background-color: rgba(194, 189, 189, 0.384) ;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 1300px;
+    height: 300px;
+}
+li{
+    text-align: left;
+    color: black ;
+    margin: 2%;
+}
+.lado{
+    text-align: center;
+    padding: 2%;
+}
+.subidas{
+    margin-right: 50%;
+    margin: 2%;
+    height: 2cm;
+    box-sizing: content-box;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.507);
+}
+.noticias{
+    text-align:center;
+    color: white;
+}
+
+.dea{
+    margin-left: 100px; 
+    margin-left: 20px;
+    margin-right: 1300px;
+}
+.pri_di{
+    margin-left:20%
+}
+.tabla{
+    margin: 50%;
+    background-color:silver;
+}
+.calendar{
+margin:2%;
+padding: 2%;
+background-color: silver;
+
+
+}
+.boxMat{
+    background-color: silver;
+    height: 900px;
+    text-align: center;
+    
+}
+td{
+    border: solid;
+}
+.dia{
+    background-color:  silver;
+    
+    margin: 0%;
+    padding: 2%;
+}
+.dia:hover{
+    background-color:   rgb(255, 4, 38);
+    
+    margin: 0%;
+    padding: 2%;
+}
+.dia_pasado{
+    background-color: silver;;
+    
+    margin: 0%;
+    padding: 2%;
+}
+.dia_pasado:hover{
+    background-color: rgba(255, 64, 80, 0.582);
+    
+    margin: 0%;
+    padding: 2%;
+}
+.tituloTab{
+    color: white;
+    text-align: center;
+    background-color: #AD1457;
+}
+.btnNuevo{
+    text-align: center;
+    text-decoration:none;
+    background-color: #AD1457;
+    margin: 1%;
+    padding: auto;
+    color: black;
+    border: none;
+}
+.btnNuevo:hover{
+    text-align: center;
+    text-decoration:none;
+    background-color: rgb(177, 86, 86);
+    color: black;
+    transition-property: all;
+    transition: ease;
+    
+    box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
+}
+.sombra{
+    box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
+}
+.profIcon{
+    
+    border-radius:10%;
+    height: 35px;
+}
+
+.btnCalendar{
+    text-align: center;
+    text-decoration:none;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    padding: auto;
+    color: black;
+    padding: 2%;
+    border: solid;
+    border-radius: 10%;
+    border-color: rgb(128, 124, 126) ;
+}
+.btnCalendar:hover{
+    border-radius: 5% ;
+    padding: 2%;
+    text-align: center;
+    text-decoration:none;
+    background-color: rgb(177, 86, 86);
+    color: black;
+    transition-property: all;
+    transition: ease;
+    
+    box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
+}
+.config{
+    
+
+    text-decoration: none;
+    margin: auto;
+    padding: inherit;
+   
+    display: inline-block;
+}
+.config:hover{
+    display: inline-block;
+    border-radius: 20%;
+    background-color: rgba(255, 0, 128, 0.253) ;
+    text-decoration: none;
+    transition-property: all;
+    transition: ease;
+    
+}
+.contorno{
+    border-radius: 1%;
+    border: solid;
+    border-color: #AD1457 ;
+    border-style: ridge;
+    border-width: 2px;
+    height: 700px;
+    margin-bottom: 10%;
+
+}
+.inputConfig{
+    border-radius: 15cm;
+    width: 10cm;
+    padding: 5px;
+    border:none;
+    background-color: white;
+}
+.profileEdit{
+  
+    border-radius: 20%;
+    border: solid;
+    border-width: 1px;
+    border-color: whitesmoke;
+    box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
+    height: 200px;
+    width: 200px;
+}
+.hojaPersonal{
+    background-color: silver;
+}
+.header{
+    height: 50px;
+    background-color:#AD1457
+}
+.contenedor{
+    min-width:464px ;
+    min-height: 535px;
+}
+.noBug{
+        content: "";
+        clear: both;
+        display: table;
+      }
+>>>>>>> Stashed changes:E.P.E.T.20-Comunicaciones/html/CSS/STYLES.css
