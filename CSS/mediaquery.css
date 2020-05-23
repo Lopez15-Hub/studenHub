@@ -1,0 +1,56 @@
+@media (max-width: 600px 360px){
+    .boton{
+
+        justify-content: space-around;
+    margin: 0cm auto;
+    width: 100px;
+    
+    padding: 1%;
+    height: 9cm;
+    width: 5cm;
+    text-align: center;
+    box-shadow: 5px 5px 45px  white;
+             Background: #ccedd2;
+        
+        color: white;
+        display: flex;
+        display: block;
+        font-display: arial;
+        block-size: 30px ;
+        border: radius 2.99%;
+        border-color: red;
+        border-style: ridge;
+    text-decoration:none;
+    box-align: center;
+    flex-direction: column;
+    }
+    .boton:active{
+        justify-content: space-around;
+    margin: 0cm auto;
+    width: 12cm;
+    
+    padding: 1%;
+    height: 9cm;
+    width: 2cm;
+    text-align: center;
+    box-shadow: 5px 5px 45px  white;
+        background: rgb(124, 16, 16);
+        color: white;
+    flex-direction: column;
+        display: block;
+        font-display: arial;
+        block-size: 30px ;
+        border: radius 2.99%;
+        border-color: red;
+        border-style: ridge;
+    text-decoration:none;
+    box-align: center;
+    }
+    .navboton{
+        display: none;
+    }
+    .container{
+        display: inline-block;
+    }
+    }
+ 

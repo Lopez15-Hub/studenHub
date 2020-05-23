@@ -1,0 +1,35 @@
+c
+header nav {
+    z-index: 1000;
+    max-width: 1000px;
+    width: 95%;
+}
+header nav ul {
+    list-style: none ;
+
+}
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+    padding-top: 80px;
+}
+.btnMenu{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+.btnMenu{
+    padding: 20px;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold ;
+    text-decoration: none;
+}
