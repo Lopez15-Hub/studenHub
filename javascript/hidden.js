@@ -1,7 +1,12 @@
-let ocultar = document.getElementsByTagName('button');
-let btnOculto = document.getElementsByClassName('btn-hide');
-function ocultar () {
-    for (let i = 0; btnOculto.length; i++{
-         ocultar.toggle.list       
-    }
-}
+$(document).ready(function () {
+
+    $('#list').hide();
+    //toggle button text
+    $('button').click(function () {
+        $('span',this).toggle();
+    });
+    //toggle list
+    $('button').click(function () {
+        $('#list').toggle('fast');
+    });
+});
