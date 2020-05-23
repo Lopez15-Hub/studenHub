@@ -259,7 +259,7 @@ td{
     background-color: silver;
 }
 .header{
-    height: 60px;
+    height: 100px;
     background-color:#AD1457
 }
 .contenedor{
@@ -272,9 +272,9 @@ td{
         display: table;
       }
 
- .video{
+ /*.video{
         height: 600px;
         width: 800px;
         margin: 150px;
         background-color: silver;
-    }
+    }*/
