@@ -10,8 +10,9 @@
     background-attachment: fixed;
 }
 .novedades{
-    background-color: silver;
+    background-color: rgb(255, 255, 255);
     display: block;
+  
 }
 
 *{
@@ -23,7 +24,7 @@
     box-sizing: border-box;
 }
 .input{
-  
+  margin-top: 5%;
     border-radius: 15cm;
     width: 10cm;
     padding: 10px;
@@ -49,7 +50,7 @@
 footer{
     background-position: bottom;
    /*background: #16a085;*/
-   background-color: brown;
+   background-color: #838383;
     color: #ffffff;
     height: 200px;
 }
@@ -116,38 +117,39 @@ li{
 }
 .tabla{
     margin: 50%;
-    background-color:silver;
+    background-color:rgb(255, 255, 255);
 }
 .calendar{
-margin:2%;
+margin:auto;
 padding: 2%;
-background-color: silver;
+background-color: rgb(255, 255, 255);
 
 
 }
 .boxMat{
-    background-color: silver;
-    height: 900px;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
     text-align: center;
+ 
 
 }
 td{
     border: solid;
 }
 .dia{
-    background-color:  silver;
+    background-color:  rgb(255, 255, 255);
 
     margin: 0%;
     padding: 2%;
 }
 .dia:hover{
-    background-color:   rgb(255, 4, 38);
+    background-color:  #d9adad;
 
     margin: 0%;
     padding: 2%;
 }
 .dia_pasado{
-    background-color: silver;;
+    background-color: #ffffff;
 
     margin: 0%;
     padding: 2%;
@@ -161,7 +163,7 @@ td{
 .tituloTab{
     color: white;
     text-align: center;
-    background-color: #AD1457;
+    background-color: #d9adad;
 }
 .btnNuevo{
     text-align: center;
@@ -200,8 +202,8 @@ td{
     color: black;
     padding: 2%;
     border: solid;
-    border-radius: 10%;
-    border-color: rgb(128, 124, 126) ;
+    border-radius: 0%;
+    border-color: rgb(255, 255, 255) ;
 }
 .btnCalendar:hover{
     border-radius: 5% ;
@@ -236,7 +238,7 @@ td{
 .contorno{
     border-radius: 1%;
     border: solid;
-    border-color: #AD1457 ;
+    border-color: #d9adad ;
     border-style: ridge;
     border-width: 2px;
     height: 700px;
@@ -264,8 +266,11 @@ td{
     background-color: silver;
 }
 .header{
-    height: 60px;
-    background-color:#AD1457
+    height: 80px;
+    display: inline-block;
+    margin-right:auto;
+    margin-left: auto;
+    background-color:#d9adad;
 }
 .contenedor{
     min-width:464px ;
@@ -283,3 +288,26 @@ td{
         margin: 150px;
         background-color: silver;
     }*/
+
+    .enlace{
+        margin-top: 2%;
+        display: block;
+    }
+    .foot{
+        margin-top: 15%;
+        overflow: hidden;
+    }
+    .nov{
+        margin-top: 5%;
+        bottom: auto;
+        left: auto;
+        right: auto;
+    }
+    .botMen{
+        color: white;
+    }
+    .botMen:hover{
+        color: white;
+        background-color: rgb(211, 138, 169);
+
+    }

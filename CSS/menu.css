@@ -18,7 +18,7 @@ header nav ul li a {
 }
 
 @media screen and (max-width:800px){
-    padding-top: 80px;
+  
 }
 .btnMenu{
     display: block;
