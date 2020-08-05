@@ -311,3 +311,9 @@ td{
         background-color: rgb(211, 138, 169);
 
     }
+    .marg{
+        margin-top: 5%;
+    }
+    li{
+        color: black;
+    }
