@@ -172,7 +172,8 @@ td{
 .tituloTab{
     color: white;
     text-align: center;
-    background-color: #d9adad;
+    background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
+    /*#d9adad*/
 }
 .btnNuevo{
     text-align: center;
