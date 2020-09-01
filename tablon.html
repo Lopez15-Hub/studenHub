@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Estilos-->
     <link rel="shortcut icon" href="imágenes\icon.png">
-    <link rel="stylesheet" href="CSS/STYLES.css">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/STYLES.css" media="screen">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" media="screen">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascript/script.js" lang="javascript"></script>
 </head>
 <!--background="http://epet20.com.ar/assets/img/logo.png  class="img-fluid mt-3" alt="Epet 20""-->
 
@@ -20,9 +21,9 @@
     <div class="contenedor">
         <div class="container-fluid col-lg-12">
             
-            <div class="row header">
+            <div class="row header degradado">
                
-                <button class="btn noBug btnMenu">
+                <button class="btn noBug btnMenu" id="btnMen">
                     <span>|||</span>
                     <span style="display: none;">|||</span>
                 </button>
@@ -46,7 +47,7 @@
                       
                         <ul id="list"  class=" boxMat sombra col-xs-12 col-md-2">
                            
-                            <p class="tituloTab container-fluid">Menú</p>
+                            <p class="tituloTab degradado container-fluid">Menú</p>
                             <br>
                             <a class="" href="config.html"> <img class="profIcon  btnNuevo"src="C:\Users\loren\Documents\EZE\fotos\perfil.jpg" alt="Menu"></a>
                                     <nav style="display: inline-flex; height: 40px; width: 40px;"></nav>
@@ -58,13 +59,13 @@
                           
                             <br>
                             <nav  class="container-fluid" style="text-align:left;" >
-                                <p class="tituloTab">General</p>
+                                <p class="tituloTab degradado">General</p>
                                
                                 <ol> <a style="color:rgb(54, 52, 52)" href="FAQ.html">Preguntas Frecuentes</a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Reportar un Problema</a> </ol>
                                 <ol> <a style="color:rgb(54, 52, 52)" href="index.html">Cerrar Sesión</a> </ol>
                                 <!--SECCIÓN DE MATERÍAS-->
-                                <p class="tituloTab">Materias</p>
+                                <p class="tituloTab degradado">Materias</p>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Ciencias Tec. E Información </a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Programación Estática y lab. Web </a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Organización y Arquitectura</a> </ol>
@@ -77,19 +78,21 @@
                                 <ol> <a style="color:rgb(54,52,52)" href="">Practicas Profesionalizantes</a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href=""> Taller</a></ol>
                                 <ol> <a style="color:rgb(54,52,52)"href="">Educación Física</a> </ol>
-                                <p class="tituloTab">Tareas Pendientes</p>
+                                <p class="tituloTab degradado">Tareas Pendientes</p>
                                         <p>¡Vaya Suerte! No tienes ninguna tarea para realizar. :)</p>
                             </nav>   
                         </ul>
                            
-                    
-                            
+
                     
                 
                         <!--CALENDARIO-->
-          
+                                <!--
                                     <ol class=" calendar col-md-9 col-xs-12">
                                         <div>
+                                        
+
+                                        
                                             <table class="container sombra">
     
     
@@ -153,19 +156,22 @@
                                                 </tr>
     
                                             </table>
+                                     
                                             <nav style="text-align:right;width:350px" class="col-xs-12 col-md-12">
                                                 <br>
                                                 <a class="btnCalendar sombra" href="#">Personalizar calendario</a>
                                                 <a class="btnCalendar sombra" href="#">Añadir Eventos</a>
                                             </nav>
-    
+                                        
                                         </div>
                                     </ol>
+                                    -->
 
                                 <div class="container">
                                     <div class="col-xs-12 col-md-12 col-lg-12 division tituloTab sombra">
                                         
-                                            <h2 class="nov">NOVEDADES</h2>
+                                            <h2 class="degradado">CLASES</h2>
+
                                         
                                     </div>
                                 </div>
@@ -173,26 +179,26 @@
                 </div>
                                             <!--SECCION DE NOVEDADES-->
                 
-                <footer class=" foot container-fluid col-xs-12 col-md-12 col-lg-12 sombra">
-                    <h5>
-                        
-                            TANGO E.P.E.T N° 20
-                        
-                    </h5>
-                    <a class="btn btn-danger" href="index.html">Sobre Nosotros</a>
-                    <p>Siguenos en:</p>
-                    <nav style=" display: inline;">
-                        <a href="" class="btn btn-danger">Facebook</a>
-                        <a href="" class="btn btn-danger">Instagram</a>
-                        <a href="" class="btn btn-danger">Twitter</a>
-                    </nav>
-                    <br>
-                    <p>2020 TANGO INC Todos los derechos reservados</p>
-                </footer>
+            <footer class="foot degradado"  >
+
+    <h1>
+        TANGO E.P.E.T N° 20
+     </h1>
+
+     <h5  class="hFot">Siguenos en:</h5>
+     <nav class="btnFot">
+     <a href="" class="botonNav botMen ">Facebook</a>
+     <a href="" class="botonNav botMen ">Instagram</a>
+     <a href="" class="botonNav botMen">Twitter</a>
+     </nav>
+     
+     <p class="textFot">TANGO INC 2020 Todos los derechos reservados</p>
+ </footer>
 
 
     </div>
     <script lang="javascript" src="javascript/hidden.js"></script>
+    <script lang="javascript" src "javascript/script.js"></script>
 
 </body>
 
