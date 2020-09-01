@@ -1,3 +1,4 @@
+
 .titulo{
     background-color: rgb(131, 206, 250);
     color: white;
@@ -25,6 +26,7 @@
 }
 .input{
   margin-top: 5%;
+   color: aliceblue;
     border-radius: 15cm;
     width: 10cm;
     padding: 10px;
@@ -39,7 +41,13 @@
     transition-delay: 5s;
 }
 .form{
+    height: 800px;
   text-align: center; 
+    margin-top:5%;
+  /*margin-left: 60%;
+  margin-right: 40%;*/
+  padding: 2%;
+  border-radius: 0% ;
    
 }
 .division{
@@ -48,11 +56,12 @@
 
 }
 footer{
-    background-position: bottom;
+   
+       background-position: bottom;
    /*background: #16a085;*/
-   background-color: #838383;
+   background-color: #818181;
     color: #ffffff;
-    height: 200px;
+    height: 250px;
 }
 .parrafo{
     color: white;
@@ -163,7 +172,8 @@ td{
 .tituloTab{
     color: white;
     text-align: center;
-    background-color: #d9adad;
+    background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
+    /*#d9adad*/
 }
 .btnNuevo{
     text-align: center;
@@ -185,7 +195,7 @@ td{
     box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
 }
 .sombra{
-    box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
+    box-shadow: 1px 1px 20px .1ch  rgb(71, 71, 71);
 }
 .profIcon{
 
@@ -258,7 +268,7 @@ td{
     border: solid;
     border-width: 1px;
     border-color: whitesmoke;
-    box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
+    box-shadow: 1px 1px 20px .1ch  rgb(24, 24, 24);
     height: 200px;
     width: 200px;
 }
@@ -266,21 +276,18 @@ td{
     background-color: silver;
 }
 .header{
-    height: 80px;
+    height: 100px;
     display: inline-block;
     margin-right:auto;
     margin-left: auto;
-    background-color:#d9adad;
+    background-color:#818181;
+
 }
 .contenedor{
     min-width:464px ;
     min-height: 535px;
 }
-.noBug{
-        content: "";
-        clear: both;
-        display: table;
-      }
+
 
  /*.video{
         height: 600px;
@@ -304,16 +311,74 @@ td{
         right: auto;
     }
     .botMen{
-        color: white;
+        background-color: rgb(255, 255, 255);
     }
     .botMen:hover{
-        color: white;
-        background-color: rgb(211, 138, 169);
+        
+        background-color: rgb(255, 255, 255);
 
     }
-    .marg{
-        margin-top: 5%;
+    body{
+        background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
     }
-    li{
-        color: black;
+    .borde{
+        border-radius: 2% ;
     }
+    .formText{
+        text-align: center;
+        margin-top: 40%;
+        margin-bottom: 10%;
+        justify-content: space-around;
+    }
+    .centro{
+        text-align: center;
+    }
+    .logItems{
+        justify-self: center;
+        position: absolute;
+        display: block;
+        margin: auto;
+        
+         
+      }
+
+      .degradado {
+        background: -webkit-linear-gradient(left, rgba(12, 156, 240, 0.685) , rgba(204, 0, 255, 0.603));; /* For Safari 5.1 to 6.0 */
+       
+        }
+      
+        .navegacion{
+            margin-left:10% ;
+            margin-right: auto;
+            margin-top: 2%;
+            padding: auto;
+
+        }
+        .botonNav{
+         
+            color: black;
+            background-color: white;
+            padding:1%;
+            margin: auto;
+            border-radius: 5%; 
+            text-decoration:  none;
+        }
+        .botonNav:hover{
+            height: 1.5cm;
+            color: black;
+            background: -webkit-linear-gradient(left, rgba(12, 156, 240, 0.685) , rgba(204, 0, 255, 0.603));; /* For Safari 5.1 to 6.0 */
+            box-shadow: 1px 1px 20px .1ch  rgb(71, 71, 71);
+            padding:1%;
+            text-decoration:  none;
+    
+        }
+        .textFot{
+            margin-top:2%;
+        }
+         .btnFot{
+            margin:2%;
+            display: inline;            
+         }
+         .hFot{
+             margin-bottom: 2%;
+         }
