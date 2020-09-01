@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eS">
+<html lang="es">
 
 <head>
     <meta name="google-signin-scope" content="profile email">
@@ -18,49 +18,85 @@
     <title>Registrate en TANGO</title>
 </head>
 
-<body>
-    <div clase = "g-signin2" datos-onSuccess = "onSignIn " data-theme = " dark " 
-       > </div>
-    <div class="container-fluid clearfix visible-xs-block sombra">
-        <div class="container-fluid">
-            <header class="row header" style="height: 100px;">
-                <nav class="noBug" style=" margin:auto;">
-        </div>
+<body style="background-color: rgb(255, 255, 255);">
+   
+    <div class="container-fluid ">
+        <header class="row header">
+           <button class="btn  noBug">
+               <span>|||</span>
+               <span style="display: none;">|||</span>
+           </button>
+            <nav id="list" class="noBug" style=" margin:1%; display: inline;">
+                <a  class="btn botMen  noBug  btn-hide"  type="button" href="about.html">¿Qué es TANGO?</a>
+         
+                <a  class="btn botMen noBug  btn-hide" href="FAQ.html">Preguntas Frecuentes</a>
+          
+                <a  class="btn botMen  noBug btn-hide "  type="button" href="howUsePlatform.html">Como usar la plataforma</a>
+           
+                <a  class="btn botMen  noBug btn-hide " href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a>
+         
+                <a  class="btn botMen  noBug btn-hide " href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a>
+            
+                <a  class="btn botMen  noBug btn-hide " href="contacto" >Soporte</a>
+                <a  class="btn botMen  noBug btn-hide " href="index.html" >Volver</a>
+            
+            </nav>
 
-        <div class="container-fluid division col-xs-12 col-xl-12">
+
+        </header>
+
+    </div>
+
+       
+
             <!--ESTA PARTE ES EL LOGIN-->
-            <center>
-                <h1 style="color: white;"> Registrate </h1>
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                <form action="success.php" method="GET" class="form">
+         
 
-                    <br>
-                    <input class="input" type="text" placeholder="Nombre">
-                    <br><br>
-                    <input class="input" type="text" placeholder="Apellido">
-                    <br>
-                    <br>
-                    <input class="input" type="text" placeholder="Nombre de usuario">
-                    <br><br>
-                    <input class="input" type="text email" placeholder=" Email">
-                    <br> <br>
-                    <input class=" input" type="password" placeholder="Contraseña" maxlength="16">
-                    <br><br>
-                    <input class=" input" type="password" placeholder="Repetir Contraseña" maxlength="16">
-                    <br>
-                    <br>
-                    <p>Soy...</p>
-                    <p><input type="checkbox">Estudiante &nbsp; <input type="checkbox">Profesor</p>
-                    <p>Acepto los terminos y condiciones: <input type="checkbox"> </p>
+                <div class="container form sombra">
+                    <div class="row ">
+                        <aside class="col-md-5  " >
+                            <h2 class="formText">
+                              SOMOS UNA PLATAFORMA DEDICADA A FACILITAR EL ESTUDIO A LOS ALUMNOS DE   
+                            </h2>
+                            <h1><mark> TODAS LAS ESCUELAS.</mark></h1>
+                 
+                        </aside>
+                    
+                    <form action="success.php" method="GET" class="sombra borde col-md-5">
+                        <h1 style="color: white;"> Registrate </h1>
 
-                    <button type="submit" class="btn btn-danger botonlog">Registrarse</button>
+                        <div clase = "g-signin2" datos-onSuccess = "onSignIn " data-theme = " dark " 
+                        > </div>       
+                            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                      
+                        <input class="input sombra" type="text" placeholder="Nombre">
+                        
+                        <input class="input sombra" type="text" placeholder="Apellido">
+                    
+                    
+                        <input class="input sombra" type="text" placeholder="Nombre de usuario">
+                       
+                        <input class="input sombra" type="text email" placeholder=" Email">
+                 
+                        <input class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                  
+                        <input class=" input sombra" type="password" placeholder="Repetir Contraseña" maxlength="16">
+            
+                        <p>Soy...</p>
+                        <p><input type="checkbox">Estudiante &nbsp; <input type="checkbox">Profesor</p>
+                        <p>Acepto los <a href="">terminos y condiciones</a>  <input type="checkbox"> </p>
+    
+                        <button type="submit" class="btn botMen  noBug  btn-hide">Registrarse</button>
+    
+    
+    
+                    </form>
 
-
-
-                </form>
-            </center>
-
-        </div>
+                    
+                     
+    
+               
+                    <script lang="javascript" src="javascript/hidden.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         
 </body>
