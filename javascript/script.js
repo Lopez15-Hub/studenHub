@@ -1,9 +1,8 @@
 
 
-function cambiar(){
-    var etiqueta = document.getElementsByTagName('title').innerHTML = "Prueba" ;
-
-
+function scrollOff(){
+ if(window.screen<800)
+    windows.scrollY.getElementsById('btnMen').off;
 }
 
 
