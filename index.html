@@ -21,128 +21,102 @@
      <meta name="keywords" content="EPET20, tarea," />
 </head>
 <!--img-fluid mt-3-->
-<body class="cuerpo " background="imágenes/TangoBW.png">
+<body >
       <!--TITULO DE LA PLATAFORMA-->
-    <div class="container-fluid ">
-        <header class="row header">
-           <button class="btn  noBug">
+       
+      <div class=" ">
+        <header class="row header degradado sombra">
+        <!--   <button class="btn  noBug">
                <span>|||</span>
                <span style="display: none;">|||</span>
            </button>
-            <nav id="list" class="noBug" style=" margin:1%; display: inline;">
-                <a  class="btn botMen  noBug  btn-hide"  type="button" href="about.html">¿Qué es TANGO?</a>
-         
-                <a  class="btn botMen noBug  btn-hide" href="FAQ.html">Preguntas Frecuentes</a>
-          
-                <a  class="btn botMen  noBug btn-hide "  type="button" href="howUsePlatform.html">Como usar la plataforma</a>
+           -->
+           <div class="container">
+
            
-                <a  class="btn botMen  noBug btn-hide " href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a>
+            <nav class="navegacion">
+                <a  class="botonNav botMen " type="button" href="about.html">¿Qué es TANGO?</a>
          
-                <a  class="btn botMen  noBug btn-hide " href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a>
+                <a  class="botonNav botMen  " type="button" href="FAQ.html">Preguntas Frecuentes</a>
+                <a  class="botonNav botMen "  type="button" href="howUsePlatform.html">Como usar la plataforma</a>
+           
+                <a  class="botonNav botMen " type="button" href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a>
+         
+                <a  class="botonNav botMen " type="button" href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a>
             
-                <a  class="btn botMen  noBug btn-hide " href="contacto" >Soporte</a>
+                <a  class="botonNav  botMen " type="button" href="contacto" >Soporte</a>
             
             
             </nav>
-
+        </div>
 
         </header>
 
     </div>
 
+    <div class="container-fluid">
 
-    <div class="container division sombra noBug marg">
-     
-            <!--Formulario Registro-->
-            <div class="row clearfix visible-xs-block sombra">
-
-                     <div class="division col-xs-5 col-xl-8">
-                         <!--ESTA PARTE ES EL LOGIN-->
-                        
-                          <form action="tablon.html" method="GET" class="form" >
-                                    <h1 style="color: black;"> Iniciar Sesion </h1>
-                                                 
-                                    <input class="input" type="text"  placeholder=" Email, nombre de usuario o documento">
-                                                   
-                                    <input class=" input" type="password" placeholder="Contraseña" maxlength="16" >
-                                                    
-                                <a class="enlace" href="forgetPass.html">¿Olvidaste tu contraseña? ¡Restablecela!</a>
-                            
-                                <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
-                                                    
-                                    <button type="submit" class="btn botMen botonlog">Entrar</button>
-
-
-
-                            </form>
-                     </div>
-
-                     <!--SECCION DE NOTICIAS-->
-
-                     <div class="col-xs-12 col-xl-4">
-
-                        <aside  class="division" id="NOTICIAS">
-                                  
-                                          <h2 class="noticias"><br>NOVEDADES</h2>
-                                <h3 style="color: red;">
-                                   Recomendaciones para los cuidados del COVID-19
-                                </h3>
-                               
-                                    <ul >
-                                        <li >
-                                            Lavarse Las manos con jabon
-                                        </li>
-                                        <li >
-                                            Desinfectar toda superficie y elemento que tuvo contacto con el exterior
-                                        </li>
-                                        <li >
-                                            Utilizar barbijo siempre que vayas a salir
-                                        </li>
-                                        <li >
-                                            Y de ser posible, quedarse en sus casas para prevenir más contagios
-                                        </li>
-                                    </ul>
-                                    <p >Para más información, visite la página de OMS: </p>
-
-                                    <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public">Visitar Página de la OMS</a>
-                              
-
-                        </aside>
-                    </div>        
-
-            </div>
-
-
-        </div>
       
 
-         <footer class="container-fluid col-md-12 sombra foot">
+            <!--ESTA PARTE ES EL LOGIN-->
+         
 
-            <h1>
-                TANGO E.P.E.T N° 20
-             </h1>
+                <div class="container form">
+                    <div class="row " >
+                        <form action="tablon.html" method="GET" class=" form logItems  col-md-12">
+                            <h1 style="color: white;"> Entrar </h1>
+    
+                            <div class = "g-signin2" datos-onSuccess = "onSignIn " data-theme = " dark " > </div>       
+                                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                          
+                            
+                            <input class="input sombra" type="text" placeholder="Nombre de usuario, email ó número de teléfono ">
+    
+                            <input class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
 
-             <p>Siguenos en:</p>
-             <nav style=" display: inline;">
-             <a href="" class="btn botMen ">Facebook</a>
-             <a href="" class="btn botMen ">Instagram</a>
-             <a href="" class="btn botMen">Twitter</a>
-             </nav>
-             <br>
-             <p>TANGO INC 2020 Todos los derechos reservados</p>
-         </footer>
+                            <a class="enlace" href="forgetPass.html">¿Olvidaste tu contraseña? ¡Restablecela!</a>
+    
+                            <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
+                    
+                                         <!--NO me deja acomodarlo debajo-->
+                            <button type="submit" class="btn botonNav botMen ">Entrar</button>
+        
+        
+        
+                        </form>
+                    </div>
+                        
+                </div>
+              
+               
+               
+    </div>
+     
+        
 <!--SLIDER-->
 <script lang="javascript" src="javascript/ajax.js"></script>
-<script lang="javascript" src="javascript/hidden.js"></scriptc
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.16.1/firebase-app.js"></script>
+<!--
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.16.1/firebase-analytics.js"> </script>
 
-<!-- Initialize Firebase                    -->
-<script src="/__/firebase/init.js"></script>
+<script lang="javascript" src="javascript/hidden.js"></script>
+-->
+
+
+<footer class="foot degradado"  >
+
+    <h1>
+        TANGO E.P.E.T N° 20
+     </h1>
+
+     <h5  class="hFot">Siguenos en:</h5>
+     <nav class="btnFot">
+     <a href="" class="botonNav botMen ">Facebook</a>
+     <a href="" class="botonNav botMen ">Instagram</a>
+     <a href="" class="botonNav botMen">Twitter</a>
+     </nav>
+     
+     <p class="textFot">TANGO INC 2020 Todos los derechos reservados</p>
+ </footer>
 </body>
 
 </html> 
