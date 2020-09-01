@@ -1,7 +1,7 @@
 
 
 function scrollOff(){
- if(window.screen<800)
+ if(screen.width<800)
     windows.scrollY.getElementsById('btnMen').off;
 }
 
