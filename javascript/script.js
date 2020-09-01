@@ -1,7 +1,7 @@
 
 function scrollOff(){  
   
-if(screen.width<800){
+if(navigator.userAgent.match(Android/i)){
    
     window.scrollX.getElementsById('btnMen').off;
     window.scrollY.getElementsById('btnMen').off;
