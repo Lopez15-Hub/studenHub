@@ -1,10 +1,14 @@
 
 function scrollOff(){  
-  
+  let head = document.getElementById("titTab");
+  let foot = document.getElementsByTagName("footer");
 if(navigator.userAgent.match(Android/i)){
    
-    window.scrollX.getElementsById('btnMen').off;
-    window.scrollY.getElementsById('btnMen').off;
+    window.scrollX.getElementById("btnMen").off;
+    window.scrollY.getElementById("btnMen").off;
+    
+    head.setAttribute("hidden");
+    foot.setAttribute("hidden");
 }
 }//fin programa
 
