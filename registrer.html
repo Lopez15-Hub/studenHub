@@ -20,32 +20,31 @@
 
 <body style="background-color: rgb(255, 255, 255);">
    
-    <div class="container-fluid ">
-        <header class="row header">
-           <button class="btn  noBug">
+    <div class=" ">
+        <header class="row header degradado sombra">
+        <!--   <button class="btn  noBug">
                <span>|||</span>
                <span style="display: none;">|||</span>
            </button>
-            <nav id="list" class="noBug" style=" margin:1%; display: inline;">
-                <a  class="btn botMen  noBug  btn-hide"  type="button" href="about.html">¿Qué es TANGO?</a>
-         
-                <a  class="btn botMen noBug  btn-hide" href="FAQ.html">Preguntas Frecuentes</a>
-          
-                <a  class="btn botMen  noBug btn-hide "  type="button" href="howUsePlatform.html">Como usar la plataforma</a>
+           -->
+           <div class="container">
+
            
-                <a  class="btn botMen  noBug btn-hide " href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a>
+            <nav class="navegacion">
+                <a  class="botonNav botMen " type="button" href="about.html">¿Qué es TANGO?</a>
          
-                <a  class="btn botMen  noBug btn-hide " href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a>
+                <a  class="botonNav botMen  " type="button" href="FAQ.html">Preguntas Frecuentes</a>
+                <a  class="botonNav botMen "  type="button" href="howUsePlatform.html">Como usar la plataforma</a>
+           
+                <a  class="botonNav botMen " type="button" href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a>
+         
+                <a  class="botonNav botMen " type="button" href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a>
             
-                <a  class="btn botMen  noBug btn-hide " href="contacto" >Soporte</a>
-                <a  class="btn botMen  noBug btn-hide " href="index.html" >Volver</a>
+                <a  class="botonNav  botMen " type="button" href="contacto" >Soporte</a>
+            
             
             </nav>
-
-
-        </header>
-
-    </div>
+        </div>
 
        
 
@@ -62,12 +61,9 @@
                  
                         </aside>
                     
-                    <form action="success.php" method="GET" class="sombra borde col-md-5">
+                    <form action="success.php" method=POST class=" borde col-md-12">
                         <h1 style="color: white;"> Registrate </h1>
-
-                        <div clase = "g-signin2" datos-onSuccess = "onSignIn " data-theme = " dark " 
-                        > </div>       
-                            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                        <h2>O accede con:<div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h2>
                       
                         <input class="input sombra" type="text" placeholder="Nombre">
                         
@@ -93,9 +89,7 @@
                     </form>
 
                     
-                     
-    
-               
+                    
                     <script lang="javascript" src="javascript/hidden.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         

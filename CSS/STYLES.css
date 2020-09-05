@@ -137,8 +137,9 @@ background-color: rgb(255, 255, 255);
 }
 .boxMat{
     background-color: rgb(255, 255, 255);
-    height: 1000px;
+    height: 2280px;
     text-align: center;
+    position: relative;
  
 
 }
@@ -170,6 +171,16 @@ td{
     padding: 2%;
 }
 .tituloTab{
+    margin-left: 50%;
+    margin-right: 50%;
+    position: absolute;
+    width: 200px;
+    color: white;
+    text-align: center;
+    background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
+    /*#d9adad*/
+}
+.tituloMen{
     color: white;
     text-align: center;
     background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
@@ -301,8 +312,10 @@ td{
         display: block;
     }
     .foot{
+
         margin-top: 15%;
         overflow: hidden;
+        position: absolute;
     }
     .nov{
         margin-top: 5%;
@@ -381,4 +394,8 @@ td{
          }
          .hFot{
              margin-bottom: 2%;
+         }
+         .btnGoogle
+         {
+            margin-left: 45%
          }

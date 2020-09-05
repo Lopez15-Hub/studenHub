@@ -1,13 +1,23 @@
-function scrollOff(){  
+/*function scrollOff(){  
   let head = document.getElementById("titTab");
-  let foot = document.getElementsByTagName("footer");
-if(navigator.userAgent.match(Android/i)){
+  let foot = document.getElementById("foot");
+if(navigator.userAgent.match(Android)){
    prompt 
     window.scrollX.getElementById("btnMen").off;
     window.scrollY.getElementById("btnMen").off;
     
     head.setAttribute("hidden");
-    foot.setAttribute("hidden");
+    foot.removeAttribute("hidden");
 //}
 }//fin programa
+}*/
 
+
+
+var foot = document.getElementById("foot");
+function ocultar()
+{
+
+  foot.setAttribute("hidden");
+  
+}
