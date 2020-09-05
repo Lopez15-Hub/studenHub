@@ -137,9 +137,11 @@ background-color: rgb(255, 255, 255);
 }
 .boxMat{
     background-color: rgb(255, 255, 255);
-    height: 2280px;
+    height: 879px;
     text-align: center;
-    position: relative;
+    max-height: max-content;
+    max-width: max-content;
+    overflow:hidden;
  
 
 }
@@ -397,5 +399,5 @@ td{
          }
          .btnGoogle
          {
-            margin-left: 45%
+            margin-left: 37%
          }
