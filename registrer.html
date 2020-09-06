@@ -62,35 +62,35 @@
                  
                         </aside>
                     
-                    <form action="success.php" method="POST" class="  col-md-5">
+                    <form class="col-md-5">
                         <h1 style="color: white;"> Registrate </h1>
                         <h5>O accede con:<div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>
                       
-                        <input class="input sombra" type="text" placeholder="Nombre">
+                        <input id="name" class="input sombra" type="text" placeholder="Nombre">
                         
-                        <input class="input sombra" type="text" placeholder="Apellido">
+                        <input id="sirName" class="input sombra" type="text" placeholder="Apellido">
                     
                     
-                        <input class="input sombra" type="text" placeholder="Nombre de usuario">
+                        <input id="user"class="input sombra" type="text" placeholder="Nombre de usuario">
                        
-                        <input class="input sombra" type="text email" placeholder=" Email">
+                        <input id="email" class="input sombra" type="text email" placeholder=" Email">
                  
-                        <input class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                        <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
                   
-                        <input class=" input sombra" type="password" placeholder="Repetir Contraseña" maxlength="16">
+                        <input id="passRepeat" class=" input sombra" type="password" placeholder="Repetir Contraseña" maxlength="16">
             
                         <p>Soy...</p>
-                        <p><input type="checkbox">Estudiante &nbsp; <input type="checkbox">Profesor</p>
-                        <p>Acepto los <a href="">terminos y condiciones</a>  <input type="checkbox"> </p>
+                        <p><input id="userType" type="checkbox">Estudiante <input id="userType" type="checkbox">Profesor</p>
+                        <p>Acepto los <a href="">terminos y condiciones</a>  <input id="terms" type="checkbox"> </p>
                         <a class="enlace" href="registrer.html">¿Ya tienes cuenta? ¡Ingresa ahora mismo!</a>
-                        <button type="submit" class="btn botMen  noBug  btn-hide">Registrarse</button>
+                        <button type="submit" class="btn botMen  noBug  btn-hide" onclick="saveReg();">Registrarse</button>
     
     
     
                     </form>
 
                     
-                    
+                    <script src="javascript/getReg.js"></script>
                     <script lang="javascript" src="javascript/hidden.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         

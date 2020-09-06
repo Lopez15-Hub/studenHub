@@ -25,11 +25,14 @@
     box-sizing: border-box;
 }
 .input{
-  margin-top: 5%;
-   color: aliceblue;
+    color: rgb(0, 0, 0);
+    display:block;
     border-radius: 15cm;
     width: 10cm;
     padding: 10px;
+    margin-top:2%;
+    margin-left: auto;
+    margin-right: auto;
     border:none;
     background-color: white;
 }
@@ -242,7 +245,7 @@ td{
 }
 .config{
 
-
+  
     text-decoration: none;
     margin: auto;
     padding: inherit;
@@ -252,7 +255,8 @@ td{
 .config:hover{
     display: inline-block;
     border-radius: 20%;
-    background-color: rgba(255, 0, 128, 0.253) ;
+    background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
+
     text-decoration: none;
     transition-property: all;
     transition: ease;
@@ -374,16 +378,15 @@ td{
             color: black;
             background-color: white;
             padding:1%;
-            margin: auto;
             border-radius: 5%; 
             text-decoration:  none;
         }
         .botonNav:hover{
-            height: 1.5cm;
+            
             color: black;
             background: -webkit-linear-gradient(left, rgba(12, 156, 240, 0.685) , rgba(204, 0, 255, 0.603));; /* For Safari 5.1 to 6.0 */
             box-shadow: 1px 1px 20px .1ch  rgb(71, 71, 71);
-            padding:1%;
+            
             text-decoration:  none;
     
         }
@@ -400,4 +403,11 @@ td{
          .btnGoogle
          {
             margin-left: 37%
+         }
+         .top{
+             margin-top:2%;
+         }
+         .remember{
+             margin-top: 2%;
+            margin-right:10%;
          }
