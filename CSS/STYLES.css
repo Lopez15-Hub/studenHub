@@ -23,6 +23,8 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+   
+
 }
 .input{
     color: rgb(0, 0, 0);
@@ -139,13 +141,13 @@ background-color: rgb(255, 255, 255);
 
 }
 .boxMat{
+
     background-color: rgb(255, 255, 255);
     height: 879px;
     text-align: center;
-    max-height: max-content;
-    max-width: max-content;
-    overflow:hidden;
- 
+    overflow: hidden;
+    background-attachment: fixed;
+    z-index: 2;
 
 }
 td{
@@ -176,10 +178,8 @@ td{
     padding: 2%;
 }
 .tituloTab{
-    margin-left: 50%;
-    margin-right: 50%;
-    position: absolute;
-    width: 200px;
+    margin-left: 15%;
+    width: 800px;
     color: white;
     text-align: center;
     background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
@@ -215,8 +215,10 @@ td{
 }
 .profIcon{
 
-    border-radius:10%;
-    height: 35px;
+    border-radius:50%;
+    height: 60px;
+    margin-top:20%;
+    margin-left:20%;
 }
 
 .btnCalendar{
@@ -339,6 +341,7 @@ td{
     }
     body{
         background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
+        overflow-x: hidden;
     }
     .borde{
         border-radius: 2% ;
@@ -411,3 +414,29 @@ td{
              margin-top: 2%;
             margin-right:10%;
          }
+         .clases{
+             background-color: white;
+             padding:5%;
+            margin-top:2%;
+             position: relative;
+             
+         }
+
+@media(max-width:800px)
+{
+    .boxMat{
+        display:none;
+    }
+    .profIcon{
+        display:block;
+    }
+}
+@media(min-width:1080px)
+{
+    .boxMat{
+        display:block;
+    }
+    .profIcon{
+        display:none;
+    }
+}

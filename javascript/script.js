@@ -12,3 +12,13 @@ if(navigator.userAgent.match(Android/i)){
 }
 }//fin programa
 
+
+function abrir()
+ 
+{
+  if(document.getElementById("btnMen").onclick){
+  document.getElementById("list").style="display:block";
+}
+
+
+}
