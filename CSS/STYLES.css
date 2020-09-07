@@ -421,6 +421,10 @@ td{
              position: relative;
              
          }
+         .NameWelcome{
+             margin-top:4%;
+             margin-left:5%;
+         }
 
 @media(max-width:800px)
 {
@@ -437,6 +441,10 @@ td{
         display:block;
     }
     .profIcon{
+        display:none;
+    }
+    .NameWelcome
+    {
         display:none;
     }
 }

@@ -18,6 +18,8 @@ function abrir()
 {
   if(document.getElementById("btnMen").onclick){
   document.getElementById("list").style="display:block";
+  document.getElementById("list").style="overflow:hidden";
+  
 }
 
 
