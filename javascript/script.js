@@ -13,14 +13,24 @@ if(navigator.userAgent.match(Android/i)){
 }//fin programa
 
 
+//onclick= pf('statusdialog').show()
+
+
+document.getElementById("prof").style="display:block;margin-left:5%";
+document.getElementById("saludo").style="display:block;margin-top:9%;margin-left:10%";
+document.getElementById("state").style="margin-top:10%;margin-left:34%;display:inline-flex";
+
+
 function abrir()
  
 {
-  if(document.getElementById("btnMen").onclick){
-  document.getElementById("list").style="display:block";
-  document.getElementById("list").style="overflow:hidden";
-  
-}
+  if(document.getElementById("btnMen").onclick)
+  {
+    document.getElementById("list").style="display:block";
+    document.getElementById("head").style="display:none";
+    document.getElementById("boxNot").style="display:none";
+    document.getElementById("clasf").setAttribute("class=sombra");
+  }
 
 
 }

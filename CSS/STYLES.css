@@ -17,7 +17,7 @@
 }
 
 *{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
     padding: 0%;
     margin: 0%;
     -webkit-box-sizing: border-box;
@@ -217,8 +217,7 @@ td{
 
     border-radius:50%;
     height: 60px;
-    margin-top:20%;
-    margin-left:20%;
+   
 }
 
 .btnCalendar{
@@ -246,17 +245,13 @@ td{
     box-shadow: 1px 1px 20px .1ch  rgb(131, 128, 128);
 }
 .config{
-
-  
     text-decoration: none;
-    margin: auto;
-    padding: inherit;
-
-    display: inline-block;
+    margin-left:15%;
+    margin-top: 8%;
+    display: flexbox;
 }
-.config:hover{
-    display: inline-block;
-    border-radius: 20%;
+.config:active{
+    display: block;
     background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
 
     text-decoration: none;
@@ -433,6 +428,8 @@ td{
     }
     .profIcon{
         display:block;
+        margin-top:20%;
+        margin-left:20%;
     }
 }
 @media(min-width:1080px)
@@ -448,3 +445,4 @@ td{
         display:none;
     }
 }
+

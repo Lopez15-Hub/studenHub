@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="imágenes\icon.png">
     <link rel="stylesheet" href="CSS/STYLES.css" media="screen">
     <link rel="stylesheet" href="CSS/bootstrap.min.css" media="screen">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="javascript/script.js" lang="javascript"></script>
 </head>
@@ -21,7 +21,7 @@
     <div class="contenedor">
         <div class="container">
             
-            <div class="row header degradado">
+            <div id="head" class="row header degradado">
                 <a  onclick="abrir();" href="#"  id="btnMen"><img class="profIcon" src="imágenes/perfil.jpg" alt=""></a>
                 <h3 class="NameWelcome">¡Hola Ezequiel!</h3>
                 <!--<button  onclick="abrir();"   class="btn noBug btnMenu">
@@ -45,25 +45,34 @@
                   
                     <div class="row">
                       
-                        <ul id="list"  class=" boxMat sombra col-xs-3 col-md-3">
+                        <ul id="list"  class=" boxMat sombra col-xs-3 col-md-4">
                            
-                           <p class="tituloMen">Menú</p>
+                           <p class="sombra tituloMen">Menú</p>
                         
-                        
-                        
-                                    <a href="config.html" class="config"><img src="imágenes/engranaje.png"></a>
-                                    <a href="#" class="config"><img src="imágenes/notificacion.png"></a>
+                            <section class="container">
+                                <section class="row col-md-12">
+                                    <a href=""><img id="prof" class="top  profIcon" src="imágenes/perfil.jpg" alt="profile"></a>  
+                                    <h5 id="saludo" class=" NameWelcome">¡Hola Ezequiel!</h5>
+                                    <nav id="state">
+                                        <a href="config.html" class="config"><img class="conf" src="imágenes/engranaje.png"></a>
+                                        <a href="#" class="config"><img src="imágenes/notificacion.png"></a>
+                                    </nav>
+                                    
+                                </section>
+                                
+                            </section>
+                                    
                                 
                                     
                             
                             <nav  class="container" style="text-align:justify;" >
-                                <p class="tituloMen top">General</p>
+                                <p class="tituloMen sombra top">General</p>
                                
                                 <ol> <a style="color:rgb(54, 52, 52)" href="FAQ.html">Preguntas Frecuentes</a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Reportar un Problema</a> </ol>
                                 <ol> <a style="color:rgb(54, 52, 52)" href="index.html">Cerrar Sesión</a> </ol>
                                 <!--SECCIÓN DE MATERÍAS-->
-                                <p class="tituloMen">Materias</p>
+                                <p class="tituloMen sombra">Materias</p>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Ciencias Tec. E Información </a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Programación Estática y lab. Web </a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href="">Organización y Arquitectura</a> </ol>
@@ -76,12 +85,13 @@
                                 <ol> <a style="color:rgb(54,52,52)" href="">Practicas Profesionalizantes</a> </ol>
                                 <ol> <a style="color:rgb(54,52,52)" href=""> Taller</a></ol>
                                 <ol> <a style="color:rgb(54,52,52)"href="">Educación Física</a> </ol>
-                                <p class="tituloMen">Tareas Pendientes</p>
+                                <p class="tituloMen sombra">Tareas Pendientes</p>
                                         <p id="tkPen">¡Vaya Suerte! No tienes ninguna tarea para realizar. :)</p>
                             </nav>   
                         </ul>
                            
-                            <div class="col-md-9">
+                            
+                            <div id="boxNot" class="col-md-8">
                                 <section class=" clases sombra">
                                     <a id="msj" href=""></a>
                                 </section>
