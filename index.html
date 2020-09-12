@@ -21,49 +21,60 @@
      <meta name="keywords" content="EPET20, tarea," />
 </head>
 <!--img-fluid mt-3-->
-<body >
-      <!--TITULO DE LA PLATAFORMA-->
+<body onload="menOff();">
+      <!--HEADER/MENU-->
        
-      <div class=" ">
-        <header class="row header degradado sombra">
-        <!--   <button class="btn  noBug">
-               <span>|||</span>
-               <span style="display: none;">|||</span>
-           </button>
-           -->
-           <div class="container">
-
-           
-            <nav class="navegacion">
-                <a  class="botonNav  " type="button" href="about.html">¿Qué es TANGO?</a>
-         
-                <a  class="botonNav  " type="button" href="FAQ.html">Preguntas Frecuentes</a>
-                <a  class="botonNav "  type="button" href="howUsePlatform.html">Como usar la plataforma</a>
-           
-                <a  class="botonNav " type="button" href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a>
-         
-                <a  class="botonNav " type="button" href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a>
-            
-                <a  class="botonNav  " type="button" href="contacto" >Soporte</a>
-            
-            
-            </nav>
-        </div>
-
-        </header>
-
-    </div>
-
     <div class="container-fluid">
+        <header class="row header sombra">
+            <button id ="btn" class="btn  noBug" onclick="abrirMen();" >
+                <span> 
+                    <img class="btnNav" src="imágenes/botonNav.png" alt="">
+                 </span>
+                 <span style="display: none;"> 
+                    <img class="btnNav" src="imágenes/botonNav.png" alt="">
+                 </span>
+            </button>
 
-      
-
+            <aside class=" row " >
+            
+                <div  class="row sombra"  >
+                    
+                        <nav class="sombra focus " id="menu">
+                           
+                            <ul class="  bg-white  navigation">
+                                <h1>perfil</h1>
+                                <hr>
+                               <ol><a  class="btn botonNav" type="button" href="about.html">¿Qué es TANGO?</a></ol>
+                               <hr>
+                               <ol><a  class="btn botonNav  " type="button" href="FAQ.html">Preguntas Frecuentes</a></ol>
+                               <hr>
+                               <ol><a  class="btn botonNav "  type="button" href="howUsePlatform.html">Como usar la plataforma</a></ol>
+                               <hr>
+                               <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a></ol>
+                               <hr>
+                               <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a></ol>
+                               <hr>
+                               <ol><a  class="btn botonNav  " type="button" href="contacto" >Soporte</a></ol>
+                               <hr>
+                           </ul>
+                                
+                           
+                       </nav>
+                  
+    
+    
+               
+                </div>
+           
+    
+            </aside>
+        </header>
+        <div onclick="cerrar();" id="log" class="login container">
             <!--ESTA PARTE ES EL LOGIN-->
-         
-
-                <div class="container form">
-                    <div class=" " >
-                        <form action="tablon.html" class=" form logItems  col-md-12">
+        
+                <div class="">
+                    <div class="form" >
+                        <form action="tablon.html" class=" form logItem">
                             <h1 style="color: white;">Entrar</h1>
                             <input id="email" class="input sombra" type="text" placeholder="Email">
                             <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
@@ -84,6 +95,13 @@
                
                
     </div>
+        
+        
+      
+         
+    </div>
+
+  
      
         
 <!--
@@ -92,7 +110,8 @@
 -->
 
 
-<footer class="foot degradado col-md-12"  >
+
+<!--<footer class="foot sombra col-md-12 bg-white"  >
 
     <h1>
         TANGO E.P.E.T N° 20
@@ -100,16 +119,26 @@
 
      <h5  class="hFot">Siguenos en:</h5>
      <nav class="btnFot">
-     <a href="" class="botonNav botMen ">Facebook</a>
-     <a href="" class="botonNav botMen ">Instagram</a>
-     <a href="" class="botonNav botMen">Twitter</a>
+     <a href="" class="btn botonNav  ">Facebook</a>
+     <a href="" class="btn botonNav  ">Instagram</a>
+     <a href="" class="btn botonNav ">Twitter</a>
      </nav>
      
      <p class="textFot">TANGO INC 2020 Todos los derechos reservados</p>
- </footer>
+ </footer> 
+
+
+
+<!--Almacén de login-->
  
- <!--Almacén de login-->
+
+ 
+ 
  <script src="javascript/getLog.js"></script>
+ <script src="javascript/hidden.js"></script>
+
+
+
 </body>
 
 </html> 

@@ -24,6 +24,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
    
+   
 
 }
 .input{
@@ -290,12 +291,12 @@ td{
     background-color: silver;
 }
 .header{
-    height: 100px;
-    display: inline-block;
-    margin-right:auto;
-    margin-left: auto;
-    background-color:#818181;
-
+    z-index: 1000;
+    display: block;
+    background-color:#fffbfb;
+    height: 80px;
+    background-attachment: fixed;
+    
 }
 .contenedor{
     min-width:464px ;
@@ -315,7 +316,8 @@ td{
         display: block;
     }
     .foot{
-
+        height: auto;
+        color:black;
         margin-top: 15%;
         overflow: hidden;
         position: absolute;
@@ -336,7 +338,6 @@ td{
     }
     body{
         background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
-        overflow-x: hidden;
     }
     .borde{
         border-radius: 2% ;
@@ -365,14 +366,14 @@ td{
         }
       
         .navegacion{
-            margin-left:10% ;
-            margin-right: auto;
+          
+            margin-top:50%;
             margin-top: 2%;
-            padding: auto;
+            padding: 2%;
 
         }
         .botonNav{
-         
+            width: 400px;
             color: black;
             background-color: white;
             padding:1%;
@@ -445,4 +446,37 @@ td{
         display:none;
     }
 }
+aside{
+ position: fixed;
+   
+}
+aside div nav ul{
+    margin: auto;
+    z-index: 1000;
+    width: 400px;
+    height: 900px;
 
+   
+}
+button img{
+    width: 35px;
+    margin-left: 30%;
+}
+.profundidad{
+    z-index: 1500;
+}
+.btn .botonNav{
+    
+    width: max-content;
+}
+.navigation{
+    text-align: right;
+    width: max-content;
+    position:absolute;
+}
+
+.focus{
+    backdrop-filter: 100;
+    z-index: 500;
+    box-shadow: 100px 10px 200px 100cm  rgba(0, 0, 0, 0.432);
+}
