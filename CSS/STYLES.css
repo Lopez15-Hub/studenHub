@@ -148,7 +148,7 @@ background-color: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
     background-attachment: fixed;
-    z-index: 2;
+    z-index: -200;
 
 }
 td{
@@ -189,7 +189,7 @@ td{
 .tituloMen{
     color: white;
     text-align: center;
-    background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
+    background: -webkit-linear-gradient(left, #EECDA3, #EF629F);;
     /*#d9adad*/
 }
 .btnNuevo{
@@ -215,10 +215,24 @@ td{
     box-shadow: 1px 1px 20px .1ch  rgb(71, 71, 71);
 }
 .profIcon{
-
+    display: inline-flexbox;
     border-radius:50%;
     height: 60px;
+    width: 60px;
+  
    
+}
+.profLine{
+    margin-top:2%;
+    margin-left:10%;
+}
+.nameWelcome{
+    margin-left:20%;
+    margin-top:8%;
+}
+div a h5{
+    justify-content: space-between;
+    display: inline-flexbox;
 }
 
 .btnCalendar{
@@ -337,15 +351,17 @@ td{
 
     }
     body{
-        background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
+
+        background: -webkit-linear-gradient(left, #EECDA3, #EF629F);;
+        overflow-x: hidden;
+        zoom: 0.9;
     }
     .borde{
         border-radius: 2% ;
     }
     .formText{
         text-align: center;
-        margin-top: 40%;
-        margin-bottom: 10%;
+       
         justify-content: space-around;
     }
     .centro{
@@ -361,7 +377,7 @@ td{
       }
 
       .degradado {
-        background: -webkit-linear-gradient(left, rgba(12, 156, 240, 0.685) , rgba(204, 0, 255, 0.603));; /* For Safari 5.1 to 6.0 */
+        background: -webkit-linear-gradient(left, #FF1616 , #FF66C4);;
        
         }
       
@@ -383,7 +399,7 @@ td{
         .botonNav:hover{
             
             color: black;
-            background: -webkit-linear-gradient(left, rgba(12, 156, 240, 0.685) , rgba(204, 0, 255, 0.603));; /* For Safari 5.1 to 6.0 */
+            background: -webkit-linear-gradient(left, #FF1616 , #FF66C4);;
             box-shadow: 1px 1px 20px .1ch  rgb(71, 71, 71);
             
             text-decoration:  none;
@@ -417,12 +433,10 @@ td{
              position: relative;
              
          }
-         .NameWelcome{
-             margin-top:4%;
-             margin-left:5%;
-         }
+         
+         
 
-@media(max-width:800px)
+/*@media(max-width:800px)
 {
     .boxMat{
         display:none;
@@ -445,13 +459,12 @@ td{
     {
         display:none;
     }
-}
+}*/
 aside{
  position: fixed;
    
 }
 aside div nav ul{
-    margin: auto;
     z-index: 1000;
     width: 400px;
     height: 900px;
@@ -470,7 +483,7 @@ button img{
     width: max-content;
 }
 .navigation{
-    text-align: right;
+    text-align: center;
     width: max-content;
     position:absolute;
 }
@@ -479,4 +492,27 @@ button img{
     backdrop-filter: 100;
     z-index: 500;
     box-shadow: 100px 10px 200px 100cm  rgba(0, 0, 0, 0.432);
+}
+.clases{
+    margin-top:5%;
+    z-index: -2000;
+}
+a{
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.411);
+    text-align: center;
+}
+.conClass{
+    height: 100%;
+    width: 100%;
+}
+.left{
+    margin-left:5%;
+}
+h3{
+    margin-left:5%;
+    text-align: justify;
+}
+.tkPen{
+    text-align: center;
 }

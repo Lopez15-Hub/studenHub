@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TangoTab</title>
+    <title>Clases</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Estilos-->
     <link rel="shortcut icon" href="imágenes\icon.png">
@@ -16,189 +16,110 @@
 </head>
 <!--background="http://epet20.com.ar/assets/img/logo.png  class="img-fluid mt-3" alt="Epet 20""-->
 
-<body class="">
-   
-    <div class="contenedor">
-        <div class="container">
+<body>
+    
+        <header class="row header sombra">
+            <button id ="btn" class="btn  noBug" >
+                <span> 
+                    <img class="btnNav" src="imágenes/botonNav.png" alt="">
+                 </span>
+                 <span style="display: none;"> 
+                    <img class="btnNav" src="imágenes/botonNav.png" alt="">
+                 </span>
+            </button>
+    
+            <aside class=" row " >
             
-            <div id="head" class="row header ">
-                <a  onclick="abrir();" href="#"  id="btnMen"><img class="profIcon" src="imágenes/perfil.jpg" alt=""></a>
-                <h3 class="NameWelcome">¡Hola Ezequiel!</h3>
-                <!--<button  onclick="abrir();"   class="btn noBug btnMenu">
+                <div  class=" sombra"  >
                     
-               
-                </button>-->
-           
-               
-                    <h1 style="color: white;"></h1>
-             
-            </div>
-    
-    
-        </div>
-        <div class="container ">
-            <div class="row">
-    
-                <!--Menú-->
-    
-                <div class="container"  >
-                  
-                    <div class="row">
-                      
-                        <ul id="list"  class=" boxMat sombra col-xs-3 col-md-4">
+                        <nav class="sombra focus " id="menu">
+                          
                            
-                           <p class="sombra tituloMen">Menú</p>
+                            <ul class="bg-white  navigation">
+          
                         
-                            <section class="container">
-                                <section class="row col-md-12">
-                                    <a href=""><img id="prof" class="top  profIcon" src="imágenes/perfil.jpg" alt="profile"></a>  
-                                    <h5 id="saludo" class=" NameWelcome">¡Hola Ezequiel!</h5>
-                                    <nav id="state">
-                                        <a href="config.html" class="config"><img class="conf" src="imágenes/engranaje.png"></a>
-                                        <a href="#" class="config"><img src="imágenes/notificacion.png"></a>
-                                    </nav>
-                                    
-                                </section>
+                               <div class="profLine" style="display: flex;">
+                                   <a href="config.html">
+                                    <img class="profIcon" src="imágenes/perfil.jpg" alt="">
+                                   </a>
                                 
-                            </section>
-                                    
-                                
-                                    
-                            
-                            <nav  class="container" style="text-align:justify;" >
-                                <p class="tituloMen sombra top">General</p>
+                                <h5 class="nameWelcome">¡Hola Ezequiel!</h5>
                                
-                                <ol> <a style="color:rgb(54, 52, 52)" href="FAQ.html">Preguntas Frecuentes</a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Reportar un Problema</a> </ol>
-                                <ol> <a style="color:rgb(54, 52, 52)" href="index.html">Cerrar Sesión</a> </ol>
-                                <!--SECCIÓN DE MATERÍAS-->
-                                <p class="tituloMen sombra">Materias</p>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Ciencias Tec. E Información </a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Programación Estática y lab. Web </a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Organización y Arquitectura</a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Sistemas operativos I </a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Tec. Redes I</a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Principio de Testing I</a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href=""> Inglés Técnico II</a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Estadística y Probabilidad </a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Tec. Avanzadas de Programación</a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href="">Practicas Profesionalizantes</a> </ol>
-                                <ol> <a style="color:rgb(54,52,52)" href=""> Taller</a></ol>
-                                <ol> <a style="color:rgb(54,52,52)"href="">Educación Física</a> </ol>
-                                <p class="tituloMen sombra">Tareas Pendientes</p>
-                                        <p id="tkPen">¡Vaya Suerte! No tienes ninguna tarea para realizar. :)</p>
-                            </nav>   
-                        </ul>
-                           
-                            
-                            <div id="boxNot" class="col-md-8">
-                                <section class=" clases sombra">
-                                    <a id="msj" href=""></a>
-                                </section>
-                                
-                                <section class=" clases sombra">
-                                    <a id="msj" href=""></a>
-                                </section>
-                                
-                                <section class=" clases sombra">
-                                    <a id="msj" href=""></a>
-                                </section>
-                                
-                                <section class=" clases sombra">
-                                    <a id="msj" href=""></a>
-                                </section>
-                                
-                            </div>
-                            
-                   
-                       
-                
-                        <!--CALENDARIO-->
-                                <!--
-                                    <ol class=" calendar col-md-9 col-xs-12">
-                                        <div>
-                                        
-
-                                        
-                                            <table class="container sombra">
-    
-    
-                                                <p style="text-align: center;"> Marzo 2020</p>
-    
-    
-                                                <tr>
-                                                    <td>Lunes</td>
-                                                    <td> Martes</td>
-                                                    <td>Míercoles</td>
-                                                    <td>Jueves</td>
-                                                    <td>Viernes</td>
-                                                    <td>Sábado</td>
-                                                    <td>Domíngo</td>
-                                                </tr>
-    
-                                                <tr style="text-align: center;">
-                                                    <td class="dia">1</td>
-                                                    <td class="dia">2</td>
-                                                    <td class="dia">3</td>
-                                                    <td class="dia">4</td>
-                                                    <td class="dia">5</td>
-                                                    <td class="dia">6</td>
-                                                    <td class="dia">7</td>
-                                                </tr>
-                                                <tr style=" text-align: center;">
-                                                    <td class="dia">8</td>
-                                                    <td class="dia">9</td>
-                                                    <td class="dia">10</td>
-                                                    <td class="dia">11</td>
-                                                    <td class="dia">12</td>
-                                                    <td class="dia">13</td>
-                                                    <td class="dia">14</td>
-                                                </tr>
-                                                <tr style=" text-align: center;">
-                                                    <td class="dia">15</td>
-                                                    <td class="dia">16</td>
-                                                    <td class="dia">17</td>
-                                                    <td class="dia">18</td>
-                                                    <td class="dia">19</td>
-                                                    <td class="dia">20</td>
-                                                    <td class="dia">21</td>
-                                                </tr>
-                                                <tr style=" text-align: center;">
-                                                    <td class="dia">22</td>
-                                                    <td class="dia">23</td>
-                                                    <td class="dia">24</td>
-                                                    <td class="dia">25</td>
-                                                    <td class="dia">26</td>
-                                                    <td class="dia">27</td>
-                                                    <td class="dia">28</td>
-                                                </tr>
-                                                <tr style="text-align: center;">
-                                                    <td class="dia">29</td>
-                                                    <td class="dia">30</td>
-                                                    <td class="dia">31</td>
-                                                    <td class="dia_pasado">1</td>
-                                                    <td class="dia_pasado">2</td>
-                                                    <td class="dia_pasado">3</td>
-                                                    <td class="dia_pasado">4</td>
-                                                </tr>
-    
-                                            </table>
-                                     
-                                            <nav style="text-align:right;width:350px" class="col-xs-12 col-md-12">
-                                                <br>
-                                                <a class="btnCalendar sombra" href="#">Personalizar calendario</a>
-                                                <a class="btnCalendar sombra" href="#">Añadir Eventos</a>
-                                            </nav>
-                                        
-                                        </div>
-                                    </ol>
-                                    -->
-
+                               </div>
+                                     <hr>
+                                     <div>
+                                        <a href="config.html">Configuración</a>
+                                        <a class="left" href="index.html">Cerrar sesión</a>        
+                                     </div>
+                                                   
                         
-                    </div>
-
+                               
+                                
+                                <hr> 
+                                <h3 class="tituloMen clases">Clases:</h3>
+                                
+                               <ol><a  class=" btn botonNav" type="button" href="about.html">Estadística y probabilidad</a></ol>
+                               
+                               <ol><a  class="btn botonNav  " type="button" href="FAQ.html">Ciencias Tec E información</a></ol>
+                               <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/"  >Programación Estática Web</a></ol>
+                               <hr>
+                               <ol><a  class="btn botonNav "  type="button" href="howUsePlatform.html">Como usar la plataforma</a></ol>
+                               <hr>
+                               
+                               
+                               <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/">Página de la escuela</a></ol>
+                               
+                               <ol><a  class="btn botonNav  " type="button" href="contacto" >Soporte</a></ol>
+                               <hr>
+                               <h3 class="tituloMen clases">Tareas Pendientes:</h3>
+                                    <p id="tkPen" class="tkPen">
+                                        ¡Vaya Suerte!
+                                    </p>
+                                        <p id="tkPen" class="tkPen">        No tienes ninguna tarea
+                                          para realizar. :)
+                                        </p>
+                           </ul>
+                                
+                           
+                       </nav>
+                  
+    
+    
+               
                 </div>
-                                            <!--SECCION DE NOVEDADES-->
+           
+    
+            </aside>
+        </header>
+    <div onclick="cerrar();" class="conClass" >
+        <div  id="log" class=" container-fluid ">
+            <!--SECCIÓN DE CLASES-->
+
+            <div >
+                   <a>
+                       <section class="clases sombra">
+    
+                       </section>
+                   </a>
+                   <a>
+                    <section class="clases sombra">
+    
+                    </section>
+                </a>
+                <a>
+                    <section class="clases sombra">
+    
+                    </section>
+                </a>
+                        
+            </div>
+              
+               
+        </div>
+    </div>
+
+
+
 
 
 
@@ -222,11 +143,8 @@
         <p class="textFot">TANGO INC 2020 Todos los derechos reservados</p>
     </footer>
 -->
-
-    </div>
-    <script lang="javascript" src="javascript/script.js"></script>
-    <script lang="javascript" src="javascript/"></script>
-
+    <script lang="javascript" src="javascript/hidden.js"></script>
 </body>
 
 </html>
+                           

@@ -21,11 +21,11 @@
      <meta name="keywords" content="EPET20, tarea," />
 </head>
 <!--img-fluid mt-3-->
-<body onload="menOff();">
+<body onload="menOff();" >
       <!--HEADER/MENU-->
        
     <div class="container-fluid">
-        <header class="row header sombra">
+        <header class="row header sombra" >
             <button id ="btn" class="btn  noBug" onclick="abrirMen();" >
                 <span> 
                     <img class="btnNav" src="imágenes/botonNav.png" alt="">
@@ -42,9 +42,9 @@
                         <nav class="sombra focus " id="menu">
                            
                             <ul class="  bg-white  navigation">
-                                <h1>perfil</h1>
-                                <hr>
-                               <ol><a  class="btn botonNav" type="button" href="about.html">¿Qué es TANGO?</a></ol>
+                             
+                                
+                               <ol class="top"><a  class="btn botonNav" type="button" href="about.html">¿Qué es TANGO?</a></ol>
                                <hr>
                                <ol><a  class="btn botonNav  " type="button" href="FAQ.html">Preguntas Frecuentes</a></ol>
                                <hr>
@@ -69,28 +69,33 @@
     
             </aside>
         </header>
-        <div onclick="cerrar();" id="log" class="login container">
-            <!--ESTA PARTE ES EL LOGIN-->
-        
-                <div class="">
-                    <div class="form" >
-                        <form action="tablon.html" class=" form logItem">
-                            <h1 style="color: white;">Entrar</h1>
-                            <input id="email" class="input sombra" type="text" placeholder="Email">
-                            <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
-                            
-                            
+        <div  onclick="cerrar();">
+            <div   id="log" class="login container ">
+                <!--ESTA PARTE ES EL LOGIN-->
             
-                                <p class="remember"> Recordar datos <input type="checkbox" name="Recordar" id="recordar"></p>
-                            <button  type="submit" class="btn botonNav top " onclick="login();">Entrar</button>
-                            <a class="enlace" href="forgetPass.html">¿Olvidaste tu contraseña? ¡Restablecela!</a>
-                            <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
-        
-        
-                        </form>
+                    <div class=" caja">
+                        <div class="form" >
+                            <form action="tablon.html" class=" form logItem">
+                                <h1 style="color: white;">Entrar</h1>
+                                <input id="email" class="input sombra" type="email" placeholder="Email">
+                                <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                                
+                                
+                
+                                    <p class="remember"> Recordar datos <input type="checkbox" name="Recordar" id="recordar"></p>
+                                <button  type="submit" class="btn botonNav top " onclick="login();">Entrar</button>
+                                <a class="enlace" href="forgetPass.html">¿Olvidaste tu contraseña? ¡Restablecela!</a>
+                                <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
+            
+            
+                            </form>
+                
+                        </div>    
                     </div>
-                        
-                </div>
+                            
+            </div>
+        </div>
+        
               
                
                

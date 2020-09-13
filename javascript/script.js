@@ -41,3 +41,4 @@ function abrirMen()
     document.getElementById("boxNot").style="display:none";
     document.getElementById("clasf").setAttribute("class=sombra");
   }*/
+  
