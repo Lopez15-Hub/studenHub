@@ -54,6 +54,7 @@
   margin-right: 40%;*/
   padding: 2%;
   border-radius: 0% ;
+  z-index: -000;
    
 }
 .division{
@@ -354,14 +355,13 @@ div a h5{
 
         background: -webkit-linear-gradient(left, #EECDA3, #EF629F);;
         overflow-x: hidden;
-        zoom: 0.9;
+        zoom: .80;
     }
     .borde{
         border-radius: 2% ;
     }
     .formText{
         text-align: center;
-       
         justify-content: space-around;
     }
     .centro{
@@ -417,7 +417,9 @@ div a h5{
          }
          .btnGoogle
          {
-            margin-left: 37%
+            margin-left: 35%;
+            position: relative;
+
          }
          .top{
              margin-top:2%;
@@ -485,6 +487,7 @@ button img{
 .navigation{
     text-align: center;
     width: max-content;
+    height: 4000px;
     position:absolute;
 }
 
@@ -516,3 +519,45 @@ h3{
 .tkPen{
     text-align: center;
 }
+.ventana{
+    margin-left:auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.507);
+    z-index: +2000;
+    margin-bottom: 10%;
+    position: absolute;
+  
+}
+
+.logo{
+    position: absolute;
+    margin-left: 47%;
+    
+}
+.logoMen{
+    margin-left: 10%;
+    
+}
+.btnLog{
+    color: black;
+    background: -webkit-linear-gradient(left, #ffffff , #ffffff);;
+    padding:1%;
+    border-radius: 5%; 
+    text-decoration:  none;
+}
+.btnLog:hover{
+    
+    color: black;
+    background: -webkit-linear-gradient(left, #FF1616 , #FF66C4);;
+    box-shadow: 1px 1px 20px .1ch  rgb(71, 71, 71);
+    
+    text-decoration:  none;
+
+}
+h2{
+    z-index: -1;
+}
+ .seccion{
+    text-align: center;
+ }

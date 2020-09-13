@@ -10,7 +10,7 @@
         $('#list').toggle('fast');
     });
 });*/
-
+//FUNCIÓN PARA ABRIR Y CERRAR EL MENÚ
 $(document).ready(function () {
 
     $('#menu').hide();
@@ -28,3 +28,10 @@ function cerrar(){
     document.getElementById("menu").style="display:none";
 }
 
+//FUNCIÓN PARA ABRIR POP UP
+
+
+function abrirVent(){
+    document.getElementById("caja").style="display:none";
+    document.getElementById("vent").style="display:block";
+}

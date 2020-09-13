@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TANGO</title>
+    <title>Student Hub</title>
      <!--iconos-->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <!--Estilos-->
@@ -14,7 +14,7 @@
      <link rel="stylesheet" href="CSS/pmenu.css" media="screen">
      <link rel="stylesheet" href="CSS/mediaquery.css" media="screen">
      <!--Slider-->
-    <link rel="shortcut icon" href="imágenes\icon.png">
+    <link rel="shortcut icon" href="imágenes\st-Logo.png">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -22,19 +22,27 @@
 </head>
 <!--img-fluid mt-3-->
 <body onload="menOff();" >
+    
       <!--HEADER/MENU-->
        
     <div class="container-fluid">
         <header class="row header sombra" >
-            <button id ="btn" class="btn  noBug" onclick="abrirMen();" >
+           
+          <button id ="btn" class="btn " onclick="abrirMen();" >
                 <span> 
                     <img class="btnNav" src="imágenes/botonNav.png" alt="">
                  </span>
                  <span style="display: none;"> 
                     <img class="btnNav" src="imágenes/botonNav.png" alt="">
                  </span>
+               
             </button>
-
+            <img class="logo" src="imágenes/student hub-logo.png" alt="">
+            
+         
+           
+         
+           
             <aside class=" row " >
             
                 <div  class="row sombra"  >
@@ -42,8 +50,8 @@
                         <nav class="sombra focus " id="menu">
                            
                             <ul class="  bg-white  navigation">
-                             
-                                
+                                <ol><img class="logoMen" src="imágenes/student hub-logo.png" alt=""></ol>
+                                <hr>
                                <ol class="top"><a  class="btn botonNav" type="button" href="about.html">¿Qué es TANGO?</a></ol>
                                <hr>
                                <ol><a  class="btn botonNav  " type="button" href="FAQ.html">Preguntas Frecuentes</a></ol>
@@ -56,6 +64,7 @@
                                <hr>
                                <ol><a  class="btn botonNav  " type="button" href="contacto" >Soporte</a></ol>
                                <hr>
+                           
                            </ul>
                                 
                            
@@ -68,23 +77,28 @@
            
     
             </aside>
+          
         </header>
-        <div  onclick="cerrar();">
+       
+        <div onclick="cerrar();">
+
             <div   id="log" class="login container ">
+               
                 <!--ESTA PARTE ES EL LOGIN-->
-            
-                    <div class=" caja">
+             
+                    <div id="caja" class=" caja">
                         <div class="form" >
                             <form action="tablon.html" class=" form logItem">
-                                <h1 style="color: white;">Entrar</h1>
+                                <h1 style="color: white;">Login</h1>
+                                <div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>
                                 <input id="email" class="input sombra" type="email" placeholder="Email">
-                                <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                                <input id="password" class=" top input sombra" type="password" placeholder="Contraseña" maxlength="16">
                                 
                                 
                 
-                                    <p class="remember"> Recordar datos <input type="checkbox" name="Recordar" id="recordar"></p>
-                                <button  type="submit" class="btn botonNav top " onclick="login();">Entrar</button>
-                                <a class="enlace" href="forgetPass.html">¿Olvidaste tu contraseña? ¡Restablecela!</a>
+                                    <p class="top remember"> Recordar datos <input type="checkbox" name="Recordar" id="recordar"></p>
+                                <button  type="submit" class="btn btnLog top " onclick="login();">Entrar</button>
+                                <a id="pop"  class="enlace" href="#" onclick="abrirVent();">¿Olvidaste tu contraseña? ¡Restablecela!</a>
                                 <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
             
             
@@ -92,9 +106,22 @@
                 
                         </div>    
                     </div>
-                            
+                    <div id="vent" class=" container ventana sombra" style="display: none;">
+                        <form action="recovery.html" class=" form logItem">
+                            <h1 style="color: black;">Restablece tu contraseña</h1>
+                                <p>
+                                    Te enviaremos un email con
+                                    los pasos a seguir:
+                                </p>
+                            <input id="email" class="input sombra" type="email" placeholder="Ingrese su email ">
+
+                            <button  type="submit" class="btn  btnLog top " onclick="login();">Enviar correo de recuperación</button>
+                         
+                        </form>
+                    </div> 
             </div>
-        </div>
+         </div>
+            
         
               
                

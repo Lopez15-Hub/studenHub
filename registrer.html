@@ -11,89 +11,140 @@
                         <link rel="stylesheet" href="CSS/bootstrap.min.css">
                             <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
                                 <!--Slider-->
-    <link rel="shortcut icon" href="imágenes\icon.png">
+                                <link rel="shortcut icon" href="imágenes\st-Logo.png">
                                     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
                                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <title>Registrate en TANGO</title>
+    <title>Únete</title>
 </head>
 
-<body style="background-color: rgb(255, 255, 255);">
-   
-    <div class=" ">
-        <header class="row header degradado sombra">
-        <!--   <button class="btn  noBug">
-               <span>|||</span>
-               <span style="display: none;">|||</span>
-           </button>
-           -->
-           <div class="container">
-
+<body>
+    <div class="container-fluid">
+        <header class="row header sombra" >
            
-            <nav class="navegacion">
-                <a  class="botonNav botMen " type="button" href="about.html">¿Qué es TANGO?</a>
-         
-                <a  class="botonNav botMen  " type="button" href="FAQ.html">Preguntas Frecuentes</a>
-                <a  class="botonNav botMen "  type="button" href="howUsePlatform.html">Como usar la plataforma</a>
-           
-                <a  class="botonNav botMen " type="button" href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a>
-         
-                <a  class="botonNav botMen " type="button" href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a>
-            
-                <a  class="botonNav  botMen " type="button" href="contacto" >Soporte</a>
-                <a href="index.html" type="button" class="botonNav btn-danger">Volver</a>
-            
-            
-            </nav>
-        </div>
-
-       
-
-            <!--ESTA PARTE ES EL LOGIN-->
-         
-
-                <div class="container form ">
-                    <div class="row ">
-                        <aside class="col-md-5  " >
-                            <h2 class="formText">
-                              SOMOS UNA PLATAFORMA DEDICADA A FACILITAR EL ESTUDIO A LOS ALUMNOS DE   
-                            </h2>
-                            <h1><mark> TODAS LAS ESCUELAS.</mark></h1>
+            <button id ="btn" class="btn " onclick="abrirMen();" >
+                  <span> 
+                      <img class="btnNav" src="imágenes/botonNav.png" alt="">
+                   </span>
+                   <span style="display: none;"> 
+                      <img class="btnNav" src="imágenes/botonNav.png" alt="">
+                   </span>
                  
-                        </aside>
-                    
-                    <form class="col-md-5">
-                        <h1 style="color: white;"> Registrate </h1>
-                        <h5>O accede con:<div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>
+              </button>
+              <img class="logo" src="imágenes/student hub-logo.png" alt="">
+              
+           
+             
+           
+             
+              <aside class=" row " >
+              
+                  <div  class="row sombra"  >
                       
-                        <input id="name" class="input sombra" type="text" placeholder="Nombre">
-                        
-                        <input id="sirName" class="input sombra" type="text" placeholder="Apellido">
+                          <nav class="sombra focus " id="menu">
+                             
+                              <ul class="  bg-white  navigation">
+                                  <ol><img class="logoMen" src="imágenes/student hub-logo.png" alt=""></ol>
+                                  <hr>
+                                 <ol class="top"><a  class="btn botonNav" type="button" href="about.html">¿Qué es TANGO?</a></ol>
+                                 <hr>
+                                 <ol><a  class="btn botonNav  " type="button" href="FAQ.html">Preguntas Frecuentes</a></ol>
+                                 <hr>
+                                 <ol><a  class="btn botonNav "  type="button" href="howUsePlatform.html">Como usar la plataforma</a></ol>
+                                 <hr>
+                                 <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/" style="margin:auto ;" >Pagina de la escuela</a></ol>
+                                 <hr>
+                                 <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/institucional/">Nuestro cuerpo educativo</a></ol>
+                                 <hr>
+                                 <ol><a  class="btn botonNav  " type="button" href="contacto" >Soporte</a></ol>
+                                 <hr>
+                                 <ol><a  class="btn btn-danger botonNav  " type="button" href="index.html" >Volver</a></ol>
+                             </ul>
+                                  
+                             
+                         </nav>
                     
-                    
-                        <input id="user"class="input sombra" type="text" placeholder="Nombre de usuario">
-                       
-                        <input id="email" class="input sombra" type="text email" placeholder=" Email">
+      
+      
                  
-                        <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
-                  
-                        <input id="passRepeat" class=" input sombra" type="password" placeholder="Repetir Contraseña" maxlength="16">
+                  </div>
+             
+      
+              </aside>
             
-                        <p>Soy...</p>
-                        <p><input id="userType" type="checkbox">Estudiante <input id="userType" type="checkbox">Profesor</p>
-                        <p>Acepto los <a href="">terminos y condiciones</a>  <input id="terms" type="checkbox"> </p>
-                        <a class="enlace" href="registrer.html">¿Ya tienes cuenta? ¡Ingresa ahora mismo!</a>
-                        <button type="submit" class="btn botMen  noBug  btn-hide" onclick="saveReg();">Registrarse</button>
+          </header>
+            
     
-    
-    
-                    </form>
+          <div onclick="cerrar();" class="container">
 
+            <div   id="log" class="login">
+               
+                <!--ESTA PARTE ES EL LOGIN-->
+             
+                    <div id="caja" class=" caja container">
+                      
+                        <div class="form row" >
+                            <section class="seccion">
+                                <h2>
+                                  SOMOS UNA PLATAFORMA DEDICADA A FACILITAR EL ESTUDIO A LOS ALUMNOS DE   
+                                </h2>
+                                <h1><mark> TODAS LAS ESCUELAS.</mark></h1>
+                     
+                            </section>
+                        
+                            <form class="reg">
+                                <h1 style="color: white;"> Registrate </h1>
+                               <!-- <h5>O accede con:<div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>-->
+                                <input id="name" class="input sombra" type="text" placeholder="Nombre">
+                                
+                                <input id="sirName" class="input sombra" type="text" placeholder="Apellido">
+                            
+                            
+                                <input id="user"class="input sombra" type="text" placeholder="Nombre de usuario">
+                               
+                                <input id="email" class="input sombra" type="text email" placeholder=" Email">
+                         
+                                <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                          
+                                <input id="passRepeat" class=" input sombra" type="password" placeholder="Repetir Contraseña" maxlength="16">
+                    
+                                <p>Soy...</p>
+                                <p><input id="userType" type="checkbox">Estudiante <input id="userType" type="checkbox">Profesor</p>
+                                <p>Acepto los <a href="">terminos y condiciones</a>  <input id="terms" type="checkbox"> </p>
+                                <a class="enlace" href="registrer.html">¿Ya tienes cuenta? ¡Ingresa ahora mismo!</a>
+                                <button type="submit" class="btn btnLog  noBug  btn-hide" onclick="saveReg();">Registrarse</button>
+            
+            
+                           
+                            </form>
+                         
+                        </div>  
+                        
+                    </div>
+                   
+            </div>
+         </div>
+    
+                <!--ESTA PARTE ES EL REGISTRO-->
+             
+    
+                    <div class=" form">
+                        <div class="row ">
+                         
+                        
+        
+        
+                        </div>
+                        </form>
+                     </div>
+        
+    </div>
+     
                      <!--Almacén de registro-->
                     <script src="javascript/getReg.js"></script>
                     <script lang="javascript" src="javascript/hidden.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
-        
+     
 </body>
 
 </html>
