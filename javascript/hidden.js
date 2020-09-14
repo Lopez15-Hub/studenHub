@@ -26,6 +26,12 @@ $(document).ready(function () {
 
 function cerrar(){
     document.getElementById("menu").style="display:none";
+    document.getElementById("vent").style="display:none";
+    document.getElementById("caja").style="display:block";
+ 
+}
+function menClose(){
+    document.getElementById("menu").style="display:none";
 }
 
 //FUNCIÓN PARA ABRIR POP UP

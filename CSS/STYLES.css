@@ -532,7 +532,7 @@ h3{
 
 .logo{
     position: absolute;
-    margin-left: 42%;
+    margin-left: 47%;
     
 }
 .logoMen{
@@ -561,3 +561,56 @@ h2{
  .seccion{
     text-align: center;
  }
+ .cruz{
+     margin-left:95%;
+     height: 60px;
+ }
+ .cruzMas{
+
+     position: absolute;
+    margin-left:95%;
+    
+    height: 80px;
+}
+.cruzMas:hover{
+    background: -webkit-linear-gradient(left, #FF1616 , #FF66C4);;
+}
+.ventanaNot{
+    border: solid;
+    border-top: none;
+    border-color: rgba(214, 214, 214, 0.212);
+    text-align: center;
+    margin-left:93%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    z-index: +2000;
+    margin-top:4.2%;
+    position: absolute;
+  
+}
+
+.btnMore{
+    width: 100px;
+    color: black;
+    background-color: white;
+    padding:1%;
+    border-radius: 5%; 
+    text-decoration:  none;
+}
+.btnMore:hover{
+    
+    color: black;
+    background: -webkit-linear-gradient(left, #FF1616 , #FF66C4);;
+    box-shadow: 1px 1px 20px .1ch  rgb(71, 71, 71);
+    
+    text-decoration:  none;
+
+}
+
+.notificacion{
+    position: absolute;
+    height: 40px;
+    margin-left: 92%;
+    margin-top: 1%;
+}

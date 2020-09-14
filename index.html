@@ -21,12 +21,12 @@
      <meta name="keywords" content="EPET20, tarea," />
 </head>
 <!--img-fluid mt-3-->
-<body onload="menOff();" >
+<body onload="menOff();"  >
     
       <!--HEADER/MENU-->
        
     <div class="container-fluid">
-        <header class="row header sombra" >
+        <header class="row header sombra"  >
            
           <button id ="btn" class="btn " onclick="abrirMen();" >
                 <span> 
@@ -78,7 +78,7 @@
           
         </header>
        
-        <div onclick="cerrar();">
+        <div>
 
             <div   id="log" class="login container ">
                
@@ -105,6 +105,7 @@
                         </div>    
                     </div>
                     <div id="vent" class=" container ventana sombra" style="display: none;">
+                        <a href="#" onclick="cerrar();"> <img class="cruz" src="imágenes/cruzCerrar.png" alt="" > </a> 
                         <form action="recovery.html" class=" form logItem">
                             <h1 style="color: black;">Restablece tu contraseña</h1>
                                 <p>
