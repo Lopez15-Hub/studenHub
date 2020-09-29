@@ -1,2 +1,2 @@
-# TANGOPROJECT
+# StudentHub
 Plataforma Escolar
