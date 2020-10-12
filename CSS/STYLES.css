@@ -23,6 +23,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
    
    
 
@@ -185,13 +186,13 @@ td{
     color: white;
     text-align: center;
     background: -webkit-linear-gradient(left, rgba(60, 184, 255, 0.685) , rgba(218, 70, 255, 0.603));;
-    /*#d9adad*/
+
 }
 .tituloMen{
     color: white;
     text-align: center;
     background: -webkit-linear-gradient(left, #EECDA3, #EF629F);;
-    /*#d9adad*/
+
 }
 .btnNuevo{
     text-align: center;
@@ -310,6 +311,7 @@ div a h5{
     display: block;
     background-color:#fffbfb;
     height: 80px;
+    width: 1721px;
     background-attachment: fixed;
     
 }
@@ -319,12 +321,6 @@ div a h5{
 }
 
 
- /*.video{
-        height: 600px;
-        width: 800px;
-        margin: 150px;
-        background-color: silver;
-    }*/
 
     .enlace{
         margin-top: 2%;
@@ -354,8 +350,8 @@ div a h5{
     body{
 
         background: -webkit-linear-gradient(left, #EECDA3, #EF629F);;
-        overflow-x: hidden;
-        zoom: .80;
+        zoom: 0.9;
+   
     }
     .borde{
         border-radius: 2% ;
@@ -577,15 +573,15 @@ h2{
 }
 .ventanaNot{
     border: solid;
-    border-top: none;
+    border-radius:5%;
     border-color: rgba(214, 214, 214, 0.212);
     text-align: center;
-    margin-left:93%;
-    width: 150px;
-    height: 150px;
+    margin-left:93.8%;
+    width: 120px;
+    height: 120px;
     background-color: rgb(255, 255, 255);
     z-index: +2000;
-    margin-top:4.2%;
+    margin-top:4.8%;
     position: absolute;
   
 }
@@ -610,7 +606,7 @@ h2{
 
 .notificacion{
     position: absolute;
-    height: 40px;
-    margin-left: 92%;
+    height: 45px;
+    margin-left: 90%;
     margin-top: 1%;
 }

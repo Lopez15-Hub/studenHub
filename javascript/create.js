@@ -1,3 +1,8 @@
+boxNews();
+
+
+
+
 function create(){
     document.getElementById("ventNot").style="display:block";
 }
@@ -36,4 +41,10 @@ function createClass(){
     document.getElementById("vent").style="margin-left:20%";
     document.getElementsByTagName("body").style="overflow:hidden";
     document.getElementById("btn").innerHTML="Crear Curso ";
+}
+function boxNews(){
+    let nombre ="Pedro ";
+    let mensaje = document.createTextNode ("Ha subido un nuevo material ");
+    nombre.appendChild(mensaje);
+    document.body.nombre.mensaje;
 }
