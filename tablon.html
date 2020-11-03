@@ -18,7 +18,7 @@
 
 <body>
     
-        <header class="row header sombra col-md-12">
+        <header class="row header sombra">
             <button id ="btnOpMen" class="btn  noBug" >
                 <span> 
                     <img class="btnNav" src="imágenes/botonNav.png" alt="">
@@ -27,10 +27,11 @@
                     <img class="btnNav" src="imágenes/botonNav.png" alt="">
                  </span>
             </button>
+
             <img class="logo" src="imágenes/student hub-logo.png" alt="">
             
                 <img id="not" onclick="create();"  class="btn btnLog cruzMas" src="imágenes/mas.png" alt="">
-                <img id="Newnot" onclick="view();"  class="btn notificacion" src="imágenes/notificacion.png" alt="">
+             <!--   <img id="Newnot" onclick="view();"  class="btn notificacion" src="imágenes/notificacion.png" alt="">-->
                 <!--Ventana not-->
                 <div id="ventNot" class="ventanaNot " onmouseover="create();"   style="display: none;" onmouseout="off();" >
                     <ul>
@@ -113,22 +114,14 @@
         <div  id="log" class=" container-fluid ">
             <!--SECCIÓN DE CLASES-->
 
-            <div >
-                   <a>
-                       <section class="clases sombra">
-                            <p id="box"> </p>
-                       </section>
-                   </a>
-                   <a>
-                    <section class="clases sombra">
-    
-                    </section>
-                </a>
-                <a>
-                    <section class="clases sombra">
-    
-                    </section>
-                </a>
+            <div class="container">
+                   <div id="a" class="row">
+                       <nav class=" col-md-12">
+                            <section id="box" class="clases sombra">
+                                
+                            </section>
+                        </nav>
+                    </div>
                         
             </div>
               

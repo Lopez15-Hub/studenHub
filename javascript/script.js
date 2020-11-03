@@ -16,9 +16,6 @@ if(navigator.userAgent.match(Android/i)){
 //onclick= pf('statusdialog').show()
 
 
-document.getElementById("prof").style="display:block;margin-left:5%";
-document.getElementById("saludo").style="display:block;margin-top:9%;margin-left:10%";
-document.getElementById("state").style="margin-top:10%;margin-left:34%;display:inline-flex";
 
 function menOff(){
 }

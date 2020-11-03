@@ -43,8 +43,14 @@ function createClass(){
     document.getElementById("btn").innerHTML="Crear Curso ";
 }
 function boxNews(){
-    let nombre ="Pedro ";
-    let mensaje = document.createTextNode ("Ha subido un nuevo material ");
-    nombre.appendChild(mensaje);
-    document.body.nombre.mensaje;
+    let nombre = "Ezequiel ";
+    let apellido = "López ";
+    let caja = document.getElementById("box");
+    let p = document.createElement("p");
+    p.innerHTML= nombre + apellido + "Ha subido nuevo material: ";
+    caja.appendChild(p);
+    let a= document.createElement("a");
+    a.innerHTML="Introducción a POO";
+    p.appendChild(a);
+    a.setAttribute("href","#");
 }
