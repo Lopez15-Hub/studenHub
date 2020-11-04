@@ -32,6 +32,7 @@ function cerrar(){
 }
 function menClose(){
     document.getElementById("menu").style="display:none";
+    document.getElementById("ventNot").style="display:none";
 }
 
 //FUNCIÓN PARA ABRIR POP UP
