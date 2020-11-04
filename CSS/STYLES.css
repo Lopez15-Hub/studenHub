@@ -606,3 +606,7 @@ h2{
     margin-left: 90%;
     margin-top: 1%;
 }
+.containt{
+    width: max-content;
+    height: 1000px;
+}

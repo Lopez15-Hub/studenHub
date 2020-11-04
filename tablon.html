@@ -16,8 +16,8 @@
 </head>
 
 
-<body>
-        
+<body onload="menOff();">
+        <div class="container-fluid">
             <header class="row header sombra">
                 <button id ="btnOpMen" class="btn" >
                     <span> 
@@ -30,7 +30,7 @@
     
                 <img class="logo" src="imágenes/student hub-logo.png" alt="">
                 
-                    <img id="not" onclick="create();"  class="btn btnLog cruzMas" src="imágenes/mas.png" alt="">
+                      <img id="not" onclick="create();" onmouseover="create();" onclick="off();"   class="btn btnLog cruzMas" src="imágenes/mas.png" alt="">
                  <!--   <img id="Newnot" onclick="view();"  class="btn notificacion" src="imágenes/notificacion.png" alt="">-->
                     <!--Ventana not-->
                     <div id="ventNot" class="ventanaNot " onmouseover="create();"   style="display: none;" onmouseout="off();" >
@@ -110,38 +110,43 @@
         
                 </aside>
             </header>
-
-       
-    <div id="caja" onclick="menClose();" class="conClass" >
-        <div  id="log" class=" container-fluid ">
-            <!--SECCIÓN DE CLASES-->
-
-            <div class="container">
-                   <div id="a" class="row">
-                       <nav class=" col-md-12">
-                            <section id="box" class="clases sombra">
-                                
-                            </section>
-                        </nav>
-                    </div>
-                        
-            </div>
-              
-               
         </div>
-    </div>
-    <div id="vent" class=" container ventana sombra" style="display: none;">
-        <a href="#" onclick="cancel();"> <img class="cruz" src="imágenes/cruzCerrar.png" alt="" > </a> 
-        <form action="recovery.html" class=" form logItem">
-            <h1 id="tit" style="color: black;"> </h1>
-            <h3 id="txt" style="color: black;"> </h3>
-       
-            <input class="input sombra" type="text">
+     
 
-            <button id="btn"  type="submit" class="btn  btnLog top "></button>
-         
-        </form>
-    </div> 
+       
+        <div class="container-fluid containt">
+            <div id="caja" onclick="menClose();" class="row conClass col-md-12" style="border:solid" >
+                <div  id="log" class=" container-fluid ">
+                    <!--SECCIÓN DE CLASES-->
+        
+                    <div class="container">
+                           <div id="a" class="row">
+                               <nav class=" col-md-12">
+                                    <section id="box" class="clases sombra">
+                                        
+                                    </section>
+                                </nav>
+                            </div>
+                                
+                    </div>
+                      
+                       
+                </div>
+            </div>
+            <div id="vent" class=" container ventana sombra" style="display: none;">
+                <a href="#" onclick="cancel();"> <img class="cruz" src="imágenes/cruzCerrar.png" alt="" > </a> 
+                <form action="recovery.html" class=" form logItem">
+                    <h1 id="tit" style="color: black;"> </h1>
+                    <h3 id="txt" style="color: black;"> </h3>
+               
+                    <input class="input sombra" type="text">
+        
+                    <button id="btn"  type="submit" class="btn  btnLog top "></button>
+                 
+                </form>
+            </div> 
+        </div>
+     
 
 
 
