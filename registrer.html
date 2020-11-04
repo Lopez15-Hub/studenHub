@@ -6,19 +6,17 @@
     <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com ">
     <script src="https://apis.google.com/js/platform.js" async Defer> </script>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-                    <link rel="stylesheet" href="CSS/STYLES.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                 <!--LOGO-->
+        <link rel="shortcut icon" href="imágenes\st-Logo.png">        
+            <link rel="stylesheet" href="CSS/STYLES.css">
                         <link rel="stylesheet" href="CSS/bootstrap.min.css">
                             <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-                                <!--Slider-->
-                                <link rel="shortcut icon" href="imágenes\st-Logo.png">
-                                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
                                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <title>Únete</title>
 </head>
 
-<body>
+<body onload="menOff();">
     <div class="container-fluid">
         <header class="row header sombra" >
            
@@ -80,47 +78,49 @@
             <div   id="log" class="login">
                
                 <!--ESTA PARTE ES EL LOGIN-->
-             
-                    <div id="caja" class=" caja container">
+             <div class="container">
+                <div id="caja" class=" caja ">
                       
-                        <div class="form row" >
-                            <section class="seccion">
-                                <h2>
-                                  SOMOS UNA PLATAFORMA DEDICADA A FACILITAR EL ESTUDIO A LOS ALUMNOS DE   
-                                </h2>
-                                <h1><mark> TODAS LAS ESCUELAS.</mark></h1>
-                     
-                            </section>
-                        
-                            <form class="reg">
-                                <h1 style="color: white;"> Registrate </h1>
-                               <!-- <h5>O accede con:<div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>-->
-                                <input id="name" class="input sombra" type="text" placeholder="Nombre">
-                                
-                                <input id="sirName" class="input sombra" type="text" placeholder="Apellido">
-                            
-                            
-                                <input id="user"class="input sombra" type="text" placeholder="Nombre de usuario">
-                               
-                                <input id="email" class="input sombra" type="text email" placeholder=" Email">
-                         
-                                <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
-                          
-                                <input id="passRepeat" class=" input sombra" type="password" placeholder="Repetir Contraseña" maxlength="16">
+                    <div class="form row" >
+                        <section class="seccion">
+                            <h2>
+                             UNA PLATAFORMA DEDICADA A FACILITAR EL ESTUDIO A LOS ALUMNOS DE   
+                            </h2>
+                            <h1><mark> TODAS LAS ESCUELAS.</mark></h1>
+                 
+                        </section>
                     
-                                <p>Soy...</p>
-                                <p><input id="userType" type="checkbox">Estudiante <input id="userType" type="checkbox">Profesor</p>
-                                <p>Acepto los <a href="">terminos y condiciones</a>  <input id="terms" type="checkbox"> </p>
-                                <a class="enlace" href="registrer.html">¿Ya tienes cuenta? ¡Ingresa ahora mismo!</a>
-                                <button type="submit" class="btn btnLog  noBug  btn-hide" onclick="saveReg();">Registrarse</button>
-            
-            
-                           
-                            </form>
-                         
-                        </div>  
+                        <form class="container">
+                            <h1 style="color: white;"> Registrate </h1>
+                           <!-- <h5>O accede con:<div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>-->
+                            <input id="name" class="input sombra" type="text" placeholder="Nombre">
+                            
+                            <input id="sirName" class="input sombra" type="text" placeholder="Apellido">
                         
-                    </div>
+                        
+                            <input id="user"class="input sombra" type="text" placeholder="Nombre de usuario">
+                           
+                            <input id="email" class="input sombra" type="text email" placeholder=" Email">
+                     
+                            <input id="password" class=" input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                      
+                            <input id="passRepeat" class=" input sombra" type="password" placeholder="Repetir Contraseña" maxlength="16">
+                
+                            <p>Soy...</p>
+                            <p><input id="userType" type="checkbox">Estudiante <input id="userType" type="checkbox">Profesor</p>
+                            <p>Acepto los <a href="">terminos y condiciones</a>  <input id="terms" type="checkbox"> </p>
+                            <a class="enlace" href="registrer.html">¿Ya tienes cuenta? ¡Ingresa ahora mismo!</a>
+                            <button type="submit" class="btn btnLog  noBug  btn-hide" onclick="saveReg();">Registrarse</button>
+        
+        
+                       
+                        </form>
+                     
+                    </div>  
+                    
+                </div>
+             </div>
+                  
                    
             </div>
          </div>

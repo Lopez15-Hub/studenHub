@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Student Hub</title>
-     <!--iconos-->
+     <!--LOGO-->
+     <link rel="shortcut icon" href="imágenes\st-Logo.png">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <!--Estilos-->
      <link rel="stylesheet" href="CSS/STYLES.css" media="screen">
@@ -15,7 +16,6 @@
      <link rel="stylesheet" href="CSS/mediaquery.css" media="screen">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-     <meta name="keywords" content="EPET20, tarea," />
 </head>
 
 <body onload="menOff();"  >
@@ -77,44 +77,46 @@
        
         <div>
 
-            <div   id="log" class="login container " onclick="cerrar();">
+            <div   id="log" class="login container-fluid " onclick="cerrar();">
                
                 <!--ESTA PARTE ES EL LOGIN-->
-             
-                    <div id="caja" class=" caja">
-                        <div class="form" >
-                            <form action="tablon.html" class=" form logItem">
-                                <h1 style="color: white;">Login</h1>
-                                <div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>
-                                <input id="email" class="input sombra" type="email" placeholder="Email">
-                                <input id="password" class=" top input sombra" type="password" placeholder="Contraseña" maxlength="16">
-                                
-                                
-                
-                                    <p class="top remember"> Recordar datos <input type="checkbox" name="Recordar" id="recordar"></p>
-                                <button  type="submit" class="btn btnLog top " onclick="login();">Entrar</button>
-                                <a id="pop"  class="enlace" href="#" onclick="abrirVent();">¿Olvidaste tu contraseña? ¡Restablecela!</a>
-                                <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
+             <div class="containt">
+                <div id="caja" class=" caja">
+                    <div class="form" >
+                        <form action="tablon.html" class=" form logItem">
+                            <h1 style="color: white;">Login</h1>
+                            <div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>
+                            <input id="email" class="input sombra" type="email" placeholder="Email">
+                            <input id="password" class=" top input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                            
+                            
             
-            
-                            </form>
-                
-                        </div>    
-                    </div>
-                    <div id="vent" class=" container ventana sombra" style="display: none;">
-                        <a href="#" onclick="cerrar();"> <img class="cruz" src="imágenes/cruzCerrar.png" alt="" > </a> 
-                        <form action="recovery.html" class=" form logItem">
-                            <h1 style="color: black;">Restablece tu contraseña</h1>
-                                <p>
-                                    Te enviaremos un email con
-                                    los pasos a seguir:
-                                </p>
-                            <input id="email" class="input sombra" type="email" placeholder="Ingrese su email ">
-
-                            <button  type="submit" class="btn  btnLog top " onclick="login();">Enviar correo de recuperación</button>
-                         
+                                <p class="top remember"> Recordar datos <input type="checkbox" name="Recordar" id="recordar"></p>
+                            <button  type="submit" class="btn btnLog top " onclick="login();">Entrar</button>
+                            <a id="pop"  class="enlace" href="#" onclick="abrirVent();">¿Olvidaste tu contraseña? ¡Restablecela!</a>
+                            <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
+        
+        
                         </form>
-                    </div> 
+            
+                    </div>    
+                </div>
+                <div id="vent" class=" container ventana sombra" style="display: none;">
+                    <a href="#" onclick="cerrar();"> <img class="cruz" src="imágenes/cruzCerrar.png" alt="" > </a> 
+                    <form action="recovery.html" class=" form logItem">
+                        <h1 style="color: black;">Restablece tu contraseña</h1>
+                            <p>
+                                Te enviaremos un email con
+                                los pasos a seguir:
+                            </p>
+                        <input id="email" class="input sombra" type="email" placeholder="Ingrese su email ">
+
+                        <button  type="submit" class="btn  btnLog top " onclick="login();">Enviar correo de recuperación</button>
+                     
+                    </form>
+                </div> 
+             </div>
+                   
             </div>
          </div>
             
@@ -132,38 +134,13 @@
   
      
         
-<!--
-
-<script lang="javascript" src="javascript/hidden.js"></script>
--->
-
-
-
-<!--<footer class="foot sombra col-md-12 bg-white"  >
-
-    <h1>
-        TANGO E.P.E.T N° 20
-     </h1>
-
-     <h5  class="hFot">Siguenos en:</h5>
-     <nav class="btnFot">
-     <a href="" class="btn botonNav  ">Facebook</a>
-     <a href="" class="btn botonNav  ">Instagram</a>
-     <a href="" class="btn botonNav ">Twitter</a>
-     </nav>
-     
-     <p class="textFot">TANGO INC 2020 Todos los derechos reservados</p>
- </footer> 
 
 
 
 <!--Almacén de login-->
- 
+<script src="javascript/getLog.js"></script>
 
- 
- 
- <script src="javascript/getLog.js"></script>
- <script src="javascript/hidden.js"></script>
+<script src="javascript/hidden.js"></script>
 
 
 

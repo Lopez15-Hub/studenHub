@@ -23,7 +23,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    max-width:2147px;
+  
 
    
    
@@ -312,7 +312,6 @@ div a h5{
     display: block;
     background-color:#fffbfb;
     height: 100px;
-    width:2147px;
     
     
 }
@@ -578,7 +577,7 @@ h2{
     width: 120px;
     height: 120px;
     background-color: rgb(255, 255, 255);
-    margin-top:0.9%;
+    margin-top:18px;
   
 }
 
@@ -607,6 +606,7 @@ h2{
     margin-top: 1%;
 }
 .containt{
-    width: max-content;
+    z-index: -2000;
     height: 1000px;
+    width: 100%;
 }
