@@ -34,7 +34,7 @@
                  </span>
                
             </button>
-            <img class="logo" src="imágenes/student hub-logo.png" alt="">
+            
             
          
            
@@ -82,20 +82,34 @@
                 <!--ESTA PARTE ES EL LOGIN-->
              <div class="containt">
                 <div id="caja" class=" caja">
-                    <div class="form" >
-                        <form action="tablon.html" class=" form logItem">
-                            <h1 style="color: white;">Login</h1>
+                    <div class="container form sombra" >
+                        
+                        <img class="logo" src="imágenes/student hub-logo.png" alt="">
+                    
+                        <h1>Login</h1>
+                        <form action="tablon.html" class="row form">
+                        
+                            <div class="log">    
+                            
+                           
                             <div class="g-signin2 de btnGoogle" data-onsuccess="onSignIn"></div></h5>
-                            <input id="email" class="input sombra" type="email" placeholder="Email">
-                            <input id="password" class=" top input sombra" type="password" placeholder="Contraseña" maxlength="16">
+                            <img class="pl-hold" src="imágenes/emailplhldr.svg" alt="">
+                            <input id="email" class="input" type="email" placeholder="Email">
+                            <img class="pl-hold" src="imágenes/contrasena.svg" alt="">
+                            <input id="password" class=" top input" type="password" placeholder="Contraseña" maxlength="16">
                             
-                            
-            
+                            <div>
                                 <p class="top remember"> Recordar datos <input type="checkbox" name="Recordar" id="recordar"></p>
-                            <button  type="submit" class="btn btnLog top " onclick="login();">Entrar</button>
-                            <a id="pop"  class="enlace" href="#" onclick="abrirVent();">¿Olvidaste tu contraseña? ¡Restablecela!</a>
-                            <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
-        
+                                <button  type="submit" class="btn btn-danger top " onclick="login();">Entrar</button>
+                                <a id="pop"  class="enlace" href="#" onclick="abrirVent();">¿Olvidaste tu contraseña? ¡Restablecela!</a>
+                                <a class="enlace" href="registrer.html">¿No tienes cuenta? ¡Crea una ahora mismo!</a>
+            
+                               </div>
+            
+                           </div>
+                        
+                          
+                        
         
                         </form>
             

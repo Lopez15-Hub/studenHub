@@ -12,14 +12,14 @@ function off(){
 function joinClass(){
     document.getElementById("tit").innerHTML="Unirse";
     document.getElementById("tit").style="text-align:center";
-    document.getElementById("txt").style="margin-left:36%";
+    document.getElementById("txt").style="text-align:center";
+    //document.getElementById("txt").style="margin-left:36%";
     document.getElementById("txt").innerHTML="Ingresa el identificador del curso: ";
     document.getElementById("vent").setAttribute("class","col-md-12");
     document.getElementById("vent").style="border:solid";
     document.getElementById("caja").style="display:none";
     document.getElementById("vent").style="display:block";
-    //document.getElementById("vent").style="margin-left:20%";
-
+    document.getElementById("vent").style="background-color: whitesmoke;position:absolute;";
     document.getElementById("btn").innerHTML="Unirse al curso ";
 }
 
@@ -31,20 +31,20 @@ function cancel(){
 }
 
 function createClass(){
-    //document.getElementById("vent").style="height:200px";
-    //document.getElementById("vent").style="width:200px";
-    document.getElementById("vent").setAttribute("class","col-md-12");
+   document.getElementById("vent").setAttribute("class","sombra");
     document.getElementById("tit").innerHTML="Crear";
     document.getElementById("vent").style="border:solid";
+    document.getElementById("vent").style="";
+    document.getElementById("vent").style="";
     document.getElementById("tit").style="text-align:center";
-    document.getElementById("txt").style="margin-left:38%";
-    document.getElementById("vent").setAttribute("class","col-md-12");
+    document.getElementById("txt").style="text-align:center";
+    document.getElementById("vent").setAttribute("class","container col-md-12");
     document.getElementById("txt").innerHTML="Ingresa el nombre del curso: ";
     document.getElementById("caja").style="display:none";
     document.getElementById("vent").style="display:block";
-    //document.getElementById("vent").style="margin-left:50%";
-    //document.getElementById("vent").style="margin-right:50%";
+    document.getElementById("vent").style="background-color: whitesmoke;position:absolute;";
     document.getElementsByTagName("body").style="overflow:hidden";
+    document.getElementById("txt").innerHTML="Código de acceso: x34lop0 ";
     document.getElementById("btn").innerHTML="Crear Curso ";
 }
 function boxNews(){

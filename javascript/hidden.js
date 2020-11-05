@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     $('#menu').hide();
     //toggle button text
-    $('btnOpMen').click(function () {
+    $('#btnOpMen').click(function () {
         $('span',this).toggle();
     });
     //toggle list

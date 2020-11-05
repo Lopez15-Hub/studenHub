@@ -1,165 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Clases</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--Estilos-->
-    <link rel="shortcut icon" href="imágenes\st-Logo.png">
-    <link rel="stylesheet" href="CSS/STYLES.css" media="screen">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css" media="screen">
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imágenes\st-Logo.png" />
+    <link rel="stylesheet" href="CSS/STYLES.css" media="screen" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" media="screen" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="javascript/script.js" lang="javascript"></script>
-</head>
+  </head>
 
+  <body onload="menOff();">
+    <div class="container-fluid">
+      <header class="row header sombra">
+        <div style="margin-top: 0.9%">
+          <button id="btnOpMen" class="btn">
+            <span>
+              <img class="btnNav" src="imágenes/botonNav.png" alt="" />
+            </span>
+            <span style="display: none">
+              <img class="btnNav" src="imágenes/botonNav.png" alt="" />
+            </span>
+          </button>
 
-<body onload="menOff();">
-        <div class="container-fluid">
-            <header class="row header sombra">
-               
-               <div class="table">
-                <button  id ="btnOpMen" class="btn" >
-                    <span> 
-                        <img class="btnNav" src="imágenes/botonNav.png" alt="">
-                     </span>
-                     <span style="display: none;"> 
-                        <img class="btnNav" src="imágenes/botonNav.png" alt="">
-                     </span>
-                </button>
-    
-                <img class="logo" src="imágenes/student hub-logo.png" alt="" >
-                <img id="not" onclick="create();" onmouseover="create();" onclick="off();"class=" cruzMas" src="imágenes/mas.png" alt="">
-                    
-               </div>
-               
-                 <!--   <img id="Newnot" onclick="view();"  class="btn notificacion" src="imágenes/notificacion.png" alt="">-->
-                    <!--Ventana not-->
-                    <div id="ventNot" class="ventanaNot " onmouseover="create();"   style="display: none;" onmouseout="off();" >
-                        <ul>
-                            <ol><a onclick="joinClass();"  class="btn btnMore  " type="button" href="#">Unirse a una clase</a></ol>
-                            <ol><a onclick="createClass();"  class="btn btnMore " type="button" href="#"  >Crear</a></ol>
-                          
-                        </ul>
-                       
-                    </div> 
-                  
-               
-                
-                <aside class=" row " >
-                
-                    <div  class=" sombra"  >
-                        
-                            <nav class="sombra focus " id="menu">
-                              
-                               
-                                <ul class="bg-white  navigation">
+          <img
+            id="not"
+            hidden
+            onclick="create();"
+            onmouseover="create();"
+            onclick="off();"
+            class="cruzMas"
+            src="imágenes/mas.png"
+            alt=""
+          />
+        </div>
+
+        <!--   <img id="Newnot" onclick="view();"  class="btn notificacion" src="imágenes/notificacion.png" alt="">-->
+        <!--Ventana not-->
+        <div
+          id="ventNot"
+          class="ventanaNot"
+          onmouseover="create();"
+          style="display: none"
+          onmouseout="off();"
+        >
+          <ul>
+            <ol>
+              <a
+                onclick="joinClass();"
+                class="btn btnMore"
+                type="button"
+                href="#"
+                >Unirse a una clase</a
+              >
+            </ol>
+            <ol>
+              <a
+                onclick="createClass();"
+                class="btn btnMore"
+                type="button"
+                href="#"
+                >Crear</a
+              >
+            </ol>
+          </ul>
+        </div>
+
+        <aside class="row">
+          <div class="sombra">
+            <nav class="sombra focus" id="menu">
               
-                            
-                                   <div class="profLine" style="display: flex;">
-                                       <a href="#">
-                                        <img class="profIcon" src="imágenes/perfil.jpg" alt="">
-                                       </a>
-                                    
-                                    <h5 class="nameWelcome">¡Hola Ezequiel!</h5>
-                                   
-                                   </div>
-                                         <hr>
-                                         <div>
-                                            <a href="#">Configuración</a>
-                                            <a class="left" href="index.html">Cerrar sesión</a>        
-                                         </div>
-                                                       
-                            
-                                   
-                                    
-                                 
-                                    <h3 class="tituloMen clases">Clases</h3>
-                                    
-                                   <ol><a  class=" btn botonNav" type="button" href="about.html">Estadística y probabilidad</a></ol>
-                                   
-                                   <ol><a  class="btn botonNav  " type="button" href="FAQ.html">Ciencias Tec E información</a></ol>
-                                   <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/"  >Programación Estática Web</a></ol>
-                                 
-                                   <h3 class="tituloMen clases">Ayuda</h3>
-                                   <ol><a  class="btn botonNav "  type="button" href="howUsePlatform.html">Como usar la plataforma</a></ol>
-                                   <ol><a  class="btn botonNav  " type="button" href="FAQ.html">Preguntas Frecuentes</a></ol>
-                                 
-                                   
-                                   
-                                   <ol><a  class="btn botonNav " type="button" href="http://epet20.com.ar/">Página de la escuela</a></ol>
-                                   
-                                   <ol><a  class="btn botonNav  " type="button" href="contacto" >Soporte</a></ol>
-                            
-                                   <h3 class="tituloMen clases">Tareas Pendientes:</h3>
-                                        <p id="tkPen" class="tkPen">
-                                            ¡Vaya Suerte!
-                                        </p>
-                                            <p id="tkPen" class="tkPen">        
-                                            No tienes ninguna tarea
-                                              para realizar. :)
-                                            </p>
-                               </ul>
-                                    
-                               
-                           </nav>
-                      
+                <ul class="bg-white navigation">
+                    <img style="width: 60px;height: 60px;" class="logo" src="imágenes/student hub-logo.png" alt="">
         
-        
+                <div class="profLine" style="display: flex">
+                  
                    
-                    </div>
-               
-        
-                </aside>
-            </header>
-        </div>
-     
+                    <a href="#">
 
-       
-        <div class="containt ">
-            <div id="caja" onclick="menClose();" class="row conClass">
-                <div  id="log" class="container">
-                    <!--SECCIÓN DE CLASES-->
-        
-                    <div class="container">
-                           <div id="a" class="row">
-                               <nav class=" col-md-12">
-                                    <section id="box" class="clases sombra">
-                                        
-                                    </section>
-                                </nav>
-                            </div>
-                                
-                    </div>
-                      
-                       
+                    <img class="profIcon" src="imágenes/perfil.jpg" alt="" />
+                  </a>
+
+                  <h5 class="nameWelcome">¡Hola Ezequiel!</h5>
                 </div>
+                <hr />
+                <div>
+                  <a href="#">Configuración</a>
+                  <a class="left" href="index.html">Cerrar sesión</a>
+                </div>
+
+                <h3 class="tituloMen clases">Clases</h3>
+
+                <ol>
+                  <a class="btn botonNav" type="button" href="about.html"
+                    >Estadística y probabilidad</a
+                  >
+                </ol>
+
+                <ol>
+                  <a class="btn botonNav" type="button" href="FAQ.html"
+                    >Ciencias Tec E información</a
+                  >
+                </ol>
+                <ol>
+                  <a
+                    class="btn botonNav"
+                    type="button"
+                    href="http://epet20.com.ar/"
+                    >Programación Estática Web</a
+                  >
+                </ol>
+
+                <h3 class="tituloMen clases">Ayuda</h3>
+                <ol>
+                  <a
+                    class="btn botonNav"
+                    type="button"
+                    href="howUsePlatform.html"
+                    >Como usar la plataforma</a
+                  >
+                </ol>
+                <ol>
+                  <a class="btn botonNav" type="button" href="FAQ.html"
+                    >Preguntas Frecuentes</a
+                  >
+                </ol>
+
+                <ol>
+                  <a
+                    class="btn botonNav"
+                    type="button"
+                    href="http://epet20.com.ar/"
+                    >Página de la escuela</a
+                  >
+                </ol>
+
+                <ol>
+                  <a class="btn botonNav" type="button" href="contacto"
+                    >Soporte</a
+                  >
+                </ol>
+
+                <h3 class="tituloMen clases">Tareas Pendientes:</h3>
+                <p id="tkPen" class="tkPen">¡Vaya Suerte!</p>
+                <p id="tkPen" class="tkPen">
+                  No tienes ninguna tarea para realizar. :)
+                </p>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+      </header>
+    
+    
+    
+    </div>
+
+    <div class="container-fluid">
+      <div id="caja" onclick="menClose();">
+          <!--SECCIÓN DE CLASES-->     
+            <div class="row">
+               <div class="col-md-2">
+
+               </div> 
+              <div class=" clases sombra col-md-8">
+                    <h1 style="text-align: center;">
+                        ACTIVIDAD RECIENTE
+                    </h1>
+                    <hr>  
+                    <!--BOX DE ACTIVIDAD RECIENTE-->
+                <div>
+                        <section id="box" class="clases" ></section>
+                    <hr>
+                         <section id="box" class="clases"></section>
+                    <hr>
+                         <section id="box" class="clases"></section>
+                    <hr>
+                </div>
+              </div>
+
+                    <!--ASIDE/ SECCIÓN DE NOTICIAS-->
+               <aside class="col-md-2">
+                    <div class="clases sombra">
+    
+                     <h1 style="text-align: center;">NOVEDADES</h1>
+                        <hr class="hrNot">
+                      <section class="clases">
+                        <h1>NOTICIA 1</h1>
+                       <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Atque repellendus voluptates nisi obcaecati dolorem vitae
+                        aut ratione voluptatem odit! Fuga minima molestias
+                        recusandae quas ut rem nulla in ducimus ipsam!
+                        <a href="#">Seguir Leyendo</a>
+                       </p> 
+                      </section>
+                      <hr class="hrNot">
+                      <section class="clases">
+                        
+                        <h1>NOTICIA 2</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Atque repellendus voluptates nisi obcaecati dolorem vitae
+                            aut ratione voluptatem odit! Fuga minima molestias
+                            recusandae quas ut rem nulla in ducimus ipsam!
+                            <a href="#">Seguir Leyendo</a>
+    
+                           </p> 
+                      </section>
+                      <hr class="hrNot">
+                      <section class="clases">
+                        <h1>NOTICIA 3</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Atque repellendus voluptates nisi obcaecati dolorem vitae
+                            aut ratione voluptatem odit! Fuga minima molestias
+                            recusandae quas ut rem nulla in ducimus ipsam!
+                            <a href="#">Seguir Leyendo</a>
+    
+                           </p> 
+                      </section>
+                    </div>
+                  </aside>      
             </div>
-            
-            <div id="vent" class=" container ventana sombra" style="display: none;">
-                <a href="#" onclick="cancel();"> <img class="cruz" src="imágenes/cruzCerrar.png" alt="" > </a> 
-                <form action="recovery.html" class=" form logItem">
-                    <h1 id="tit" style="color: black;"> </h1>
-                    <h3 id="txt" style="color: black;"> </h3>
-               
-                    <input class="input sombra" type="text">
         
-                    <button id="btn"  type="submit" class="btn  btnLog top "></button>
-                 
-                </form>
-            </div> 
-        </div>
-     
+      </div>
 
+      <div id="vent" class="" style="display: none">
+        <a href="#" onclick="cancel();">
+          <img class="cruz" src="imágenes/cruzCerrar.png" alt="" />
+        </a>
+        <form action="recovery.html" class="form logItem">
+          <h1 id="tit" style="color: black"></h1>
+          <h3 id="txt" style="color: black"></h3>
 
+          <input class="input sombra" type="text" />
 
+          <button id="btn" type="submit" class="btn btnLog top"></button>
+        </form>
+      </div>
 
+    </div>
 
     <script lang="javascript" src="javascript/hidden.js"></script>
     <script src="javascript/create.js"></script>
-</body>
-
+  </body>
 </html>
-                           
