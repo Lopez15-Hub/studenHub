@@ -168,32 +168,40 @@
     
     
     </div>
-
-    <div class="container-fluid">
+    <div>
       <div id="caja" onclick="menClose();">
           <!--SECCIÓN DE CLASES-->     
-            <div class="row">
-               <div class="col-md-2">
-
-               </div> 
-              <div class=" clases sombra col-md-8">
+            <div class="row ">
+              
+              <div class="clases col-md-2 " style="background-color: transparent;">
+    
+              </div> 
+    
+                  <!--ACTIVIDAD RECIENTE-->
+              <div class=" col-md-4 sombra clases">
                     <h1 style="text-align: center;">
                         ACTIVIDAD RECIENTE
                     </h1>
                     <hr>  
+                    
                     <!--BOX DE ACTIVIDAD RECIENTE-->
                 <div>
-                        <section id="box" class="clases" ></section>
+                        <section id="box" class=""></section>
                     <hr>
-                         <section id="box" class="clases"></section>
+                         <section id="box" class=""></section>
                     <hr>
-                         <section id="box" class="clases"></section>
+                         <section id="box" class=""></section>
                     <hr>
                 </div>
               </div>
-
+    
+              <!--ESPACIO-->
+              <div class="col-md-2 clases" style="background-color: transparent;">
+    
+              </div> 
+    
                     <!--ASIDE/ SECCIÓN DE NOTICIAS-->
-               <aside class="col-md-2">
+               <aside class="col-md-3">
                     <div class="clases sombra">
     
                      <h1 style="text-align: center;">NOVEDADES</h1>
@@ -238,7 +246,7 @@
             </div>
         
       </div>
-
+      <!--Ventana emergente-->
       <div id="vent" class="" style="display: none">
         <a href="#" onclick="cancel();">
           <img class="cruz" src="imágenes/cruzCerrar.png" alt="" />
@@ -246,16 +254,18 @@
         <form action="recovery.html" class="form logItem">
           <h1 id="tit" style="color: black"></h1>
           <h3 id="txt" style="color: black"></h3>
-
+    
           <input class="input sombra" type="text" />
-
+    
           <button id="btn" type="submit" class="btn btnLog top"></button>
         </form>
       </div>
-
+    
     </div>
 
     <script lang="javascript" src="javascript/hidden.js"></script>
     <script src="javascript/create.js"></script>
   </body>
 </html>
+
+
