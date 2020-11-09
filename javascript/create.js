@@ -52,10 +52,10 @@ function boxNews(){
     let apellido = "López ";
     let caja = document.getElementById("box");
     let p = document.createElement("p");
-    p.innerHTML= nombre + apellido + "Ha subido nuevo material: ";
+    p.innerHTML= nombre + apellido + "Acaba de subir nuevo material: ";
     caja.appendChild(p);
     let a= document.createElement("a");
     a.innerHTML="Introducción a POO";
     p.appendChild(a);
     a.setAttribute("href","#");
-}
+}   
